@@ -13,7 +13,8 @@
 
 % Hier den Namen des Teilnehmers und den Titel  der Ausarbeitung eintragen:
 \newcommand{\teilnehmer}{Abdul Ahad Ayaz}
-\newcommand{\ausarbeitung}{Towards Network-Aware Resource Provisioning in Kubernetes for Fog Computing applications}
+\newcommand{\ausarbeitung}{Towards Network-Aware Resource Provisioning in Kubernetes
+for Fog Computing applications}
 
 
 % Falls die Ausarbeitung in Deutsch erfolgt,
@@ -35,7 +36,8 @@
 
 \usepackage{geometry}
 \geometry{a4paper,body={5.8in,9in}}
-
+\usepackage{titlesec}
+\titleformat{\section}{\normalfont\Large\bfseries}{}{0pt}{}
 % Graphics:
 \usepackage{graphicx}
 % aller Bilder werden im Unterverzeichnis figures gesucht:
@@ -77,9 +79,11 @@
 \section{Summary}
 \label{sec:summary}
 
-The introduction describes the problem, why it is important, the main
-ideas of the following paper, what are the main contributions of the
-paper, etc.
+In recent years, with the evolution of technology, IoT devices are increasing day
+by day. These IoT devices serves the mankind in different ways such as smart cites,
+smart transportation, water and waste management. With this increasing number of devices,
+the management and communication between these devices is one of the main issue. Fog computing
+addresses this issue by connecting heterogeneous IoT devices in a network and all the processing is done at the device level. Fog computing is the extension of cloud computing but decentralized. Fog computing is responsible for providing resouces to IoT devices for processing. 
 
 %\section{Related Work}
 %\label{sec:relwork}

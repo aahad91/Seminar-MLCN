@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex template"] 1587064800 "template.aux" "template.bbl" "template" 1587064801
+["bibtex template"] 1587663126 "template.aux" "template.bbl" "template" 1587667864
   "/usr/local/texlive/2020/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "bib.bib" 1516782852 396 3dcd9da6673c25e2303a216f6f348d9e ""
-  "template.aux" 1587064801 166 495a278945befb26b7a68e58f946b083 "pdflatex"
+  "bib.bib" 1587662526 817 4154c9e0266e349a5499d9de816787bf ""
+  "template.aux" 1587667864 166 495a278945befb26b7a68e58f946b083 "pdflatex"
   (generated)
-  "template.blg"
   "template.bbl"
-["pdflatex"] 1587064800 "template.tex" "template.pdf" "template" 1587064801
+  "template.blg"
+["pdflatex"] 1587667863 "template.tex" "template.pdf" "template" 1587667864
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -39,15 +39,16 @@
   "/usr/local/texlive/2020/texmf-dist/tex/latex/natbib/natbib.sty" 1291685959 45456 1c8843383c0bd05870c45fa0ebea6cc2 ""
   "/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1ptm.fd" 1137110629 961 15056f4a61917ceed3a44e4ac11fcc52 ""
   "/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/times.sty" 1156702453 857 6c716f26c5eadfb81029fcd6ce2d45e6 ""
+  "/usr/local/texlive/2020/texmf-dist/tex/latex/titlesec/titlesec.sty" 1571259403 48596 2b6a95da931c07a430b1a61904aaa42d ""
   "/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf" 1583102494 39451 60d7debd9ef8ece44cbe965493576c2d ""
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1586288239 4811913 0be9a7e86c70a26e5e3042966bcd7097 ""
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1587063674 2432464 3ce72dedb06db925d6f195d5a0f72b09 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "template.aux" 1587064801 166 495a278945befb26b7a68e58f946b083 "pdflatex"
-  "template.bbl" 1587064800 275 de5ffaf5b665b622658d80bed97ba2a5 "bibtex template"
-  "template.tex" 1587064796 5963 dbcb980308cc1db4db511c1197228601 ""
+  "template.aux" 1587667864 166 495a278945befb26b7a68e58f946b083 "pdflatex"
+  "template.bbl" 1587663126 275 de5ffaf5b665b622658d80bed97ba2a5 "bibtex template"
+  "template.tex" 1587667863 6523 eb19da46e3d4679d160fffd052636a5d ""
   (generated)
   "template.log"
-  "template.pdf"
   "template.aux"
+  "template.pdf"
