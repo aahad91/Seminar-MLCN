@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex template"] 1587663126 "template.aux" "template.bbl" "template" 1587667864
+["bibtex template"] 1587685106 "template.aux" "template.bbl" "template" 1587686293
   "/usr/local/texlive/2020/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
   "bib.bib" 1587662526 817 4154c9e0266e349a5499d9de816787bf ""
-  "template.aux" 1587667864 166 495a278945befb26b7a68e58f946b083 "pdflatex"
+  "template.aux" 1587686293 166 495a278945befb26b7a68e58f946b083 "pdflatex"
   (generated)
   "template.bbl"
   "template.blg"
-["pdflatex"] 1587667863 "template.tex" "template.pdf" "template" 1587667864
+["pdflatex"] 1587686292 "template.tex" "template.pdf" "template" 1587686293
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -45,10 +45,10 @@
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1586288239 4811913 0be9a7e86c70a26e5e3042966bcd7097 ""
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1587063674 2432464 3ce72dedb06db925d6f195d5a0f72b09 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "template.aux" 1587667864 166 495a278945befb26b7a68e58f946b083 "pdflatex"
-  "template.bbl" 1587663126 275 de5ffaf5b665b622658d80bed97ba2a5 "bibtex template"
-  "template.tex" 1587667863 6523 eb19da46e3d4679d160fffd052636a5d ""
+  "template.aux" 1587686293 166 495a278945befb26b7a68e58f946b083 "pdflatex"
+  "template.bbl" 1587685107 275 de5ffaf5b665b622658d80bed97ba2a5 "bibtex template"
+  "template.tex" 1587686291 8034 c71fdd4b5e5096774e1f28c0267a307a ""
   (generated)
-  "template.log"
   "template.aux"
+  "template.log"
   "template.pdf"
