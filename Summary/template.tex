@@ -104,7 +104,18 @@ as a pod in Kubernetes. Each pod consist of only one IP address and all the unde
 communicate using different ports. Different pods are isolated from each other and underlaying
 containers cannot communicate across pods. After receiving the pod configurations from user, master node
 schedule these pods based on the resources availability on different worker nodes.
-
+\par
+When the new pod configurations are provided, pods are added to the waiting queue. Default Kubernetes
+scheduler monitors the waiting queue for pods and deploy the pod on specific worker node based on
+scheduling mechanism. scheduling is performed in two steps, first is the "node filtering" and
+second is "node priority calculation". In first step worker node is selected by applying filter[paper8]
+such as "PodFitsResources", "NoDiskConflict", "PodFitsHostPorts" etc. Sellected nodes are then prioritize
+in second step by calculating "LeastRequestPriority", "MostRequestedPriority", "CalculateAntiAffinityPriority"
+etc. These scheduling is performed by considering resources such as CPU, memory, disk etc and network is not
+considered.
+\par
+Considering one usecase of IoT such as smart cities, one of its service is to perform the anomaly detection as
+discussed in [paper22].     
 %\section{Related Work}
 %\label{sec:relwork}
 

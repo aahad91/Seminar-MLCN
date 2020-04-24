@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.16)  24 APR 2020 01:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.16)  24 APR 2020 03:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -180,26 +180,33 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 62.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 62.
- (./template.bbl
+ [1
+
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./template.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 8.
 
-) [1
+)
 
-{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./template.aux) ) 
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 14.49998pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[2] (./template.aux) ) 
 Here is how much of TeX's memory you used:
- 2526 strings out of 480608
- 35124 string characters out of 5903630
- 283517 words of memory out of 5000000
- 18424 multiletter control sequences out of 15000+600000
- 540437 words of font info for 37 fonts, out of 8000000 for 9000
+ 2529 strings out of 480608
+ 35153 string characters out of 5903630
+ 284517 words of memory out of 5000000
+ 18425 multiletter control sequences out of 15000+600000
+ 542079 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,6n,45p,210b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on template.pdf (1 page, 26103 bytes).
+ 30i,10n,45p,210b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on template.pdf (2 pages, 34976 bytes).
 PDF statistics:
- 17 PDF objects out of 1000 (max. 8388607)
- 11 compressed objects within 1 object stream
+ 24 PDF objects out of 1000 (max. 8388607)
+ 16 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
