@@ -80,49 +80,49 @@ for Fog Computing applications}
 \label{sec:summary}
 
 In recent years, with the evolution of technology IoT devices are increasing day
-by day. These IoT devices serves the mankind in different ways such as smart cites,
-smart transportation, water and waste management. With this increasing number of devices,
-the management and communication between these devices is one of the main issue. Fog computing
+by day. These IoT devices serve mankind in different ways such as smart cities,
+smart transportation, water, and waste management. With this increasing number of devices,
+the management and communication between these devices are one of the main issues. Fog computing
 addresses this issue by connecting heterogeneous IoT devices in a network and all the processing
 is done at the device level. Fog computing is the extension of cloud computing but decentralized.
 \par
-Fog computing is responsible for providing resouces to IoT devices for processing. Traditionally
-these resources are allocated as VMs from different cloud infrastructure such as AWS, Google,
-OpenStack etc. to run the applications. VMs are considered resource greedy
-and require more computaional resource. Alternate is to use the Containers such as Docker
-which are light-weight,requires less resources and based on micro-service archietecture. Large applications are split into
-containers based on the main processes of the application. This increasing number of containers per application
-required the proper monitoring for health check and resource consumption. The most commonly
-used orchestrator for containers is Kubernetes.
+Fog computing is responsible for providing resources to IoT devices for processing. Traditionally
+these resources are allocated as VMs from different cloud infrastructures such as AWS, Google,
+OpenStack, etc. to run the applications. VMs are considered resource greedy
+and require more computational resources. Alternate is to use the Containers such as Docker
+which are light-weight, requires less resources and based on micro-service architecture.
+Large applications are split into containers based on the main processes of the application.
+This increasing number of containers per application required the proper monitoring for health check
+and resource consumption. The most commonly used orchestrator for containers is Kubernetes.
 \par
 Kubernetes is an open-source platform for management,deployment and scaling of containers.
-Kubernetes archietecture is based on master slave model. Its consist of
-one master node and multiple worker node. Worker node provides the compute power. Master node communicates
+Kubernetes architecture is based on the master-slave model. Its consist of one master node and
+multiple worker node. Worker node provides the compute power. Master node communicates
 with the worker nodes using API, it is also responsible scheduling and deploying the containers
-across the cluster of worker nodes. Application consisting of multiple containers are deployed
+across the cluster of worker nodes. An application consisting of multiple containers are deployed
 as a pod in Kubernetes. Each pod consist of only one IP address and all the underlying containers
-communicate using different ports. Different pods are isolated from each other and underlaying
-containers cannot communicate across pods. After receiving the pod configurations from user, master node
-schedule these pods based on the resources availability on different worker nodes.
+communicate using different ports. Different pods are isolated from each other and underlying
+containers cannot communicate across pods. After receiving the pod configurations from the user, master node
+schedules these pods based on the availability of resources on different worker nodes.
 \par
 When the new pod configurations are provided, pods are added to the waiting queue. Default Kubernetes
-scheduler monitors the waiting queue for pods and deploy the pod on specific worker node based on
-scheduling mechanism. scheduling is performed in two steps, first is the "node filtering" and
+scheduler monitors the waiting queue for pods and deploys the pod on a specific worker node based on
+a scheduling mechanism. scheduling is performed in two steps, first is the "node filtering" and
 second is "node priority calculation". In first step worker node is selected by applying filters \cite{k8s}
-such as "PodFitsResources", "NoDiskConflict", "PodFitsHostPorts" etc. Sellected nodes are then prioritize
+such as "PodFitsResources", "NoDiskConflict", "PodFitsHostPorts" etc. Selected nodes are then prioritized
 in second step by calculating "LeastRequestPriority", "MostRequestedPriority", "CalculateAntiAffinityPriority"
 etc. These scheduling is performed by considering resources such as CPU, memory, disk etc and network is not
 considered.
 \par
-Considering one usecase of IoT such as smart cities, where IoT applications collects the air quality data. Data is
-considered sensative, making sure that no data is lost while it transmitted, making network configuration one of the main
-issue while deploying such applications. Default Kubernetes scheduler doesnot check for the latency and available bandwidth
-at particular worker node. Considering this drawback, author proposed a new network-based scheduler for pod deployment
-across worker nodes. This network scheduler is extension of default Kubernetes scheduler. This scheduler works
-in two steps, firstly calculates the Round Trip Time(RTT) to target node mentioned in the pod configuration file
-and select the node with minimum RTT. Second, it calculates the bandwidth of node and compares it with the bandwidth
-provided in the pod configuration based on best-fit selection. Results shows that this network-based scheduler can
-improve the performance of Kubernetes by 80\% interms of network latency\cite{Santos2019}.
+Considering one use-case of IoT such as smart cities, where IoT applications collect the air quality data. Data is
+considered sensitive, making sure that no data is lost while it transmitted, making network configuration one of the
+main issues while deploying such applications. Default Kubernetes scheduler does not check for the latency and available bandwidth
+at a particular worker node. Considering this drawback, the author proposed a new network-based scheduler for pod deployment
+across worker nodes. This network scheduler is an extension of the default Kubernetes scheduler. This scheduler works
+in two steps, firstly calculates the Round Trip Time(RTT) to the target node mentioned in the pod configuration file
+and selects the node with minimum RTT. Second, it calculates the bandwidth of node and compares it with the bandwidth
+provided in the pod configuration based on best-fit selection. Results show that this network-based scheduler can
+improve the performance of Kubernetes by 80\% in terms of network latency\cite{Santos2019}.
 
 \section{Related Papers}
 \label{sec:relwork}

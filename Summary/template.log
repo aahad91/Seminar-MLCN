@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.16)  24 APR 2020 19:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.16)  24 APR 2020 22:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -254,13 +254,13 @@ This may cause the page layout to be inconsistent, however.
 Here is how much of TeX's memory you used:
  2621 strings out of 480608
  36558 string characters out of 5903630
- 288238 words of memory out of 5000000
+ 287238 words of memory out of 5000000
  18504 multiletter control sequences out of 15000+600000
  546716 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,10n,45p,210b,343s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,10n,45p,210b,343s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on template.pdf (4 pages, 72346 bytes).
+Output written on template.pdf (4 pages, 72348 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  26 compressed objects within 1 object stream
