@@ -79,7 +79,7 @@ for Fog Computing applications}
 \section{Summary}
 \label{sec:summary}
 
-In recent years, with the evolution of technology, IoT devices are increasing day
+In recent years, with the evolution of technology IoT devices are increasing day
 by day. These IoT devices serves the mankind in different ways such as smart cites,
 smart transportation, water and waste management. With this increasing number of devices,
 the management and communication between these devices is one of the main issue. Fog computing
@@ -114,10 +114,31 @@ in second step by calculating "LeastRequestPriority", "MostRequestedPriority", "
 etc. These scheduling is performed by considering resources such as CPU, memory, disk etc and network is not
 considered.
 \par
-Considering one usecase of IoT such as smart cities, one of its service is to perform the anomaly detection as
-discussed in [paper22].     
-%\section{Related Work}
-%\label{sec:relwork}
+Considering one usecase of IoT such as smart cities, where IoT applications collects the air quality data. Data is
+considered sensative, making sure that no data is lost while it transmitted, making network configuration one of the main
+issue while deploying such applications. Default Kubernetes scheduler doesnot check for the latency and available bandwidth
+at particular worker node. Considering this drawback, author proposed a new network-based scheduler for pod deployment
+across worker nodes. This network scheduler is extension of default Kubernetes scheduler. This scheduler works
+in two steps, firstly calculates the Round Trip Time(RTT) to target node mentioned in the pod configuration file
+and select the node with minimum RTT. Second, it calculates the bandwidth of node and compares it with the bandwidth
+provided in the pod configuration based on best-fit selection. Results shows that this network-based scheduler can
+improve the performance of Kubernetes by 80\% interms of network latency\cite{Santos2019}.
+
+\section{Related Papers}
+\label{sec:relwork}
+\begin{enumerate}
+  \item In \cite{Wobker2018}, "Fogernetes"- fog computing platform is presented that manages and deploys fog applications.
+  \item In \cite{gog}, "Firmament" - centralized scheduler. It schedules the tasks considering the network latency.
+  \item In \cite{MichaelChimaOgbuachiAnnaRealePeterSuskovics}, considering scheduling issues in 5G infrastructure, author
+  propsed solution based on considering physical, operational and network parameters along with the software states.
+  \item In \cite{Bittencourt2017}, dicussed about scheduling issues in fog computing, mentioned three scheduling policies
+  that can improve the execution of application.
+  \item In \cite{Haja2019}, presented the Kubernetes scheduler that consider the application delay constraints.
+  \item In \cite{Mittermeier2018}, presented the Dynamic Scheduling for Seamless Computing(DYSCO), a Kubernetes based scheduler.
+  \item In \cite{Medel2018}, presented the analysis on performance of Kubernetes deployment through Petri net-based performance model.
+  \item In \cite{Agarwal2016}, presented the  an effective algorithm and architecture for resources provisioning in fog computing
+  environment by employing virtualization technology.
+\end{enumerate}
 
 %The related work section could describe other work that is in some
 %respects relevant for the understanding of the problem outlined in

@@ -1,8 +1,84 @@
-\begin{thebibliography}{0}
+\begin{thebibliography}{9}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Agarwal et~al.(2016)Agarwal, Yadav, and Yadav]{Agarwal2016}
+Swati Agarwal, Shashank Yadav, and Arun~Kumar Yadav.
+\newblock {An Efficient Architecture and Algorithm for Resource Provisioning in
+  Fog Computing}.
+\newblock 2016.
+\newblock \url{}.
+
+\bibitem[Bittencourt et~al.(2017)Bittencourt, Diaz-Montes, Buyya, Rana, and
+  Parashar]{Bittencourt2017}
+Luiz~F. Bittencourt, Javier Diaz-Montes, Rajkumar Buyya, Omer~F. Rana, and
+  Manish Parashar.
+\newblock {Mobility-Aware Application Scheduling in Fog Computing}.
+\newblock 2017.
+\newblock \url{}.
+
+\bibitem[Gog et~al.(2016)Gog, Schwarzkopf, Gleave, Watson, and Hand]{gog}
+Ionel Gog, Malte Schwarzkopf, Adam Gleave, Robert N~M Watson, and Steven Hand.
+\newblock \emph{{Firmament: Fast, Centralized Cluster Scheduling at Scale
+  Firmament: fast, centralized cluster scheduling at scale}}.
+\newblock 12th USENIX Symposium on Operating Systems Design and Implementation
+  (OSDI 2016), 2016.
+\newblock
+  \url{https://www.usenix.org/conference/osdi16/technical-sessions/presentation/gog}.
+
+\bibitem[Haja et~al.(2019)Haja, Szalay, Sonkoly, Pongracz, and Toka]{Haja2019}
+David Haja, Mark Szalay, Balazs Sonkoly, Gergely Pongracz, and Laszlo Toka.
+\newblock {Sharpening Kubernetes for the Edge}.
+\newblock SIGCOMM 2019 - Proceedings of the 2019 ACM SIGCOMM Conference Posters
+  and Demos, Part of SIGCOMM 2019, 2019.
+\newblock \url{}.
+
+\bibitem[Medel et~al.(2018)Medel, Tolosana-Calasanz, Ba{\~{n}}ares,
+  Arronategui, and Rana]{Medel2018}
+V{\'{i}}ctor Medel, Rafael Tolosana-Calasanz, Jos{\'{e}}~{\'{A}}ngel
+  Ba{\~{n}}ares, Unai Arronategui, and Omer~F. Rana.
+\newblock {Characterising resource management performance in Kubernetes}.
+\newblock 2018.
+\newblock \url{}.
+
+\bibitem[{Michael Chima Ogbuachi, Anna Reale, P{\'{e}}ter
+  Suskovics}(2020)]{MichaelChimaOgbuachiAnnaRealePeterSuskovics}
+Benedek~Kov{\'{a}}cs {Michael Chima Ogbuachi, Anna Reale, P{\'{e}}ter
+  Suskovics}.
+\newblock {Context-Aware Kubernetes Scheduler for Edge-native Applications on
+  5G}.
+\newblock 2020.
+\newblock
+  \url{https://jcomss.fesb.unist.hr/index.php/jcomss/article/view/1027}.
+
+\bibitem[Mittermeier et~al.(2018)Mittermeier, Katenbrink, Seitz, Muller, and
+  Bruegge]{Mittermeier2018}
+Ludwig Mittermeier, Florian Katenbrink, Andreas Seitz, Harald Muller, and Bernd
+  Bruegge.
+\newblock {Dynamic scheduling for seamless computing}.
+\newblock Proceedings - 8th IEEE International Symposium on Cloud and Services
+  Computing, SC2 2018, 2018.
+\newblock \url{}.
+
+\bibitem[Santos et~al.(2019)Santos, Wauters, Volckaert, and {De
+  Turck}]{Santos2019}
+Jose Santos, Tim Wauters, Bruno Volckaert, and Filip {De Turck}.
+\newblock {Towards network-Aware resource provisioning in kubernetes for fog
+  computing applications}.
+\newblock IEEE Conference on Network Softwarization Unleashing the Power of
+  Network Softwarization, NetSoft 2019, 2019.
+\newblock \url{http://physics.nist.gov/Document/sp811.pdf}.
+
+\bibitem[W{\"{o}}bker et~al.(2018)W{\"{o}}bker, Seitz, Mueller, and
+  Bruegge]{Wobker2018}
+Cecil W{\"{o}}bker, Andreas Seitz, Harald Mueller, and Bernd Bruegge.
+\newblock {Fogernetes: Deployment and management of fog computing
+  applications}.
+\newblock IEEE/IFIP Network Operations and Management Symposium: Cognitive
+  Management in a Cyber World, NOMS 2018, 2018.
+\newblock \url{https://ieeexplore.ieee.org/document/8406321}.
 
 \end{thebibliography}

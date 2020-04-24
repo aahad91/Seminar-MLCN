@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.16)  24 APR 2020 03:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.16)  24 APR 2020 18:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -182,31 +182,80 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 62.
  [1
 
-{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./template.bbl
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (6.193pt too wide) in paragraph at lines 134--136
+[]\OT1/ptm/m/n/12 In [[]], di-cussed about schedul-ing is-sues in fog com-put-ing, men-tioned three schedul-
+ []
 
-Package natbib Warning: Empty `thebibliography' environment on input line 8.
-
+(./template.bbl
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 13.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 13.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
 Make it at least 14.49998pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[2] (./template.aux) ) 
+[2]
+Underfull \hbox (badness 7273) in paragraph at lines 24--31
+[]\OT1/ptm/m/n/12 Ionel Gog, Malte Schwarzkopf, Adam Gleave, Robert N M Wat-son,
+ []
+
+
+Underfull \hbox (badness 2573) in paragraph at lines 24--31
+\OT1/ptm/m/n/12 and Steven Hand.  \OT1/ptm/m/it/12 Fir-ma-ment: Fast, Cen-tral-ized Clus-ter Schedul-ing at
+ []
+
+
+Underfull \hbox (badness 4660) in paragraph at lines 24--31
+\OT1/ptm/m/it/12 Scale Fir-ma-ment: fast, cen-tral-ized clus-ter schedul-ing at scale\OT1/ptm/m/n/12 .  12th
+ []
+
+
+Underfull \hbox (badness 6110) in paragraph at lines 24--31
+\OT1/ptm/m/n/12 USENIX Sym-po-sium on Op-er-at-ing Sys-tems De-sign and Im-ple-men-ta-tion
+ []
+
+
+Underfull \hbox (badness 2512) in paragraph at lines 49--56
+[]\OT1/ptm/m/n/12 Benedek Kov[]acs Michael Chima Og-buachi, Anna Reale, P[]eter Suskovics.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--56
+\OT1/pcr/m/n/12 https : / / jcomss . fesb . unist . hr / index . php / jcomss / article /
+ []
+
+)
+
+Package Fancyhdr Warning: \headheight is too small (14.49998pt): 
+Make it at least 27.03389pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[3] (./template.aux) ) 
 Here is how much of TeX's memory you used:
- 2529 strings out of 480608
- 35153 string characters out of 5903630
- 284517 words of memory out of 5000000
- 18425 multiletter control sequences out of 15000+600000
- 542079 words of font info for 39 fonts, out of 8000000 for 9000
+ 2618 strings out of 480608
+ 36525 string characters out of 5903630
+ 286219 words of memory out of 5000000
+ 18501 multiletter control sequences out of 15000+600000
+ 546716 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,10n,45p,210b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on template.pdf (2 pages, 34976 bytes).
+ 32i,10n,45p,210b,343s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on template.pdf (3 pages, 70074 bytes).
 PDF statistics:
- 24 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 35 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
