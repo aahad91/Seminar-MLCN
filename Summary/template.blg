@@ -3,6 +3,8 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: template.aux
 The style file: plainnat.bst
 Database file #1: bib.bib
+Warning--to sort, need author or key in k8s
+Warning--empty year in k8s
 Warning--empty journal in Agarwal2016
 Warning--empty journal in Bittencourt2017
 Warning--empty booktitle in Haja2019
@@ -11,45 +13,45 @@ Warning--empty journal in MichaelChimaOgbuachiAnnaRealePeterSuskovics
 Warning--empty booktitle in Mittermeier2018
 Warning--empty booktitle in Santos2019
 Warning--empty booktitle in Wobker2018
-You've used 9 entries,
+You've used 10 entries,
             2773 wiz_defined-function locations,
-            646 strings with 7341 characters,
-and the built_in function-call counts, 4418 in all, are:
-= -- 348
+            653 strings with 7702 characters,
+and the built_in function-call counts, 4658 in all, are:
+= -- 371
 > -- 358
 < -- 1
-+ -- 120
++ -- 121
 - -- 111
-* -- 365
-:= -- 716
-add.period$ -- 36
-call.type$ -- 9
-change.case$ -- 63
-chr.to.int$ -- 9
-cite$ -- 26
-duplicate$ -- 192
-empty$ -- 313
+* -- 381
+:= -- 735
+add.period$ -- 38
+call.type$ -- 10
+change.case$ -- 66
+chr.to.int$ -- 10
+cite$ -- 31
+duplicate$ -- 207
+empty$ -- 348
 format.name$ -- 120
-if$ -- 892
+if$ -- 951
 int.to.chr$ -- 1
 int.to.str$ -- 1
 missing$ -- 10
-newline$ -- 62
+newline$ -- 66
 num.names$ -- 36
-pop$ -- 147
+pop$ -- 161
 preamble$ -- 1
-purify$ -- 55
+purify$ -- 57
 quote$ -- 0
-skip$ -- 145
+skip$ -- 159
 stack$ -- 0
-substring$ -- 18
-swap$ -- 5
+substring$ -- 21
+swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 94
-warning$ -- 8
+type$ -- 105
+warning$ -- 10
 while$ -- 27
 width$ -- 0
-write$ -- 129
-(There were 8 warnings)
+write$ -- 138
+(There were 10 warnings)
