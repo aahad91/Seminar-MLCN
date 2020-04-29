@@ -1,0 +1,10 @@
+# Fdb version 3
+["pdflatex"] 1588171447 "metadata.tex" "metadata.pdf" "metadata" 1588171447
+  "/usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf" 1583102494 39451 60d7debd9ef8ece44cbe965493576c2d ""
+  "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1587063674 2432464 3ce72dedb06db925d6f195d5a0f72b09 ""
+  "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
+  "metadata.aux" 1588170930 8 a94a2480d3289e625eea47cd1b285758 ""
+  "metadata.tex" 1588171447 232 40b8444be719069cddbc0f46f7297dba ""
+  (generated)
+  "metadata.pdf"
+  "metadata.log"

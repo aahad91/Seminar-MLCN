@@ -1,0 +1,6 @@
+PWD /Users/ahad/Documents/study/4th_Semester/seminar-mlcn/Seminar-MLCN/Toc-bullet-points
+INPUT /usr/local/texlive/2020/texmf.cnf
+INPUT /usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT content.tex
+OUTPUT content.log
