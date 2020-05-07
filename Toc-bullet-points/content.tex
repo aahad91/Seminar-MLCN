@@ -9,7 +9,7 @@
 
 % Abstract gives a brief summary of the main points of a paper:
 \begin{abstract}
-
+\textbf{Abstract - }
 \end{abstract}
 
 % the actual content, usually separated over a number of sections
@@ -18,33 +18,84 @@
 
 \section{Introduction}
 \label{sec:introduction}
+\begin{itemize}
+  \item Starting with the IoT devices
+  \item Management of IoT devices, transitioning from Cloud to Fog Computing
+  \item some use-cases of IoT using fog computing
+  \item Fog computing Infrastructure
+  \item VMs vs Container-based solutions (VM Cloud infra vs Kubernetes)
+  \item Kubernetes brief overview
+  \item Kubernetes in-terms of Fog Computing (network consideration and issues)
+  \item last paragraph about proposed solution for network related issues, and strucutre of seminar paper
+\end{itemize}
 
+\section{Backgroud}
+\label{sec:backgroud}
+\begin{itemize}
+  \item Kubernetes Internal Archietecture and Main Components
+  \item Kubernetes works as an Orchestrator
+  \item Kubernetes resource provisioning
+  \item Concluding the section with pitfals of default scheduler of Kubernetes
+\end{itemize}
 
+\subsection{Kubernetes Main Components}
+\label{sec:k8s_main_comp}
+\begin{itemize}
+  \item Write about the Archietecture of Kubernetes with diagram
+  \item Write about the building blocks of Kubernetes and their working
+\end{itemize}
 
-% Note: for a SEMINAR, Related Work usually is a BAD idea and makes no
-% sense!
-\section{Some section}
-\label{sec:relwork}
+\subsection{Kubernetes as Orchestrator}
+\label{sec:k8s_orchestrator}
+\begin{itemize}
+  \item Orchestrator main functions
+  \item Workflow of Kubernetes as an Orchestrator (steps)
+\end{itemize}
 
+\subsection{Kubernetes resource provisioning}
+\label{sec:k8s_scheduler}
+\begin{itemize}
+  \item write about the default Kubernetes scheduler
+  \item its main Components
+  \item workflow of default scheduler
+\end{itemize}
 
-\section{Some other section}
-\label{sec:model}
+\section{Kubernetes network-based resource provisioning}
+\label{sec: k8s_ns}
+\begin{itemize}
+  \item write about why we need network-based resource provisioning
+  \item main factors consideration (e.g bandwidth and latency)
+  \item workflow of network-based scheduler
+\end{itemize}
 
+\section{Performance Evaluation}
+\label{sec:Performance_eval}
+\begin{itemize}
+  \item Write about the considered use-case of Fog Computing for Evaluation
+\end{itemize}
+\subsection{Expermentation Setup}
+\label{sec:setup}
+\begin{itemize}
+  \item setup of Kubernetes base on the mentioned use-case of Fog Computing with diagram
+\end{itemize}
 
-\section{Word processing \& \LaTeX}
-\label{sec:latex}
+\subsection{Analysis of Kubernetes default and network-based resource provisioning}
+\label{sec:analysis}
+\begin{itemize}
+  \item write about the Performance difference between default Kubernetes scheduler and network based scheduler with supporting result tables and graphs
+\end{itemize}
 
+\section{Comparison of Network-based resource provisioning solutions}
+\label{sec:related_work}
+\begin{itemize}
+  \item Compare different solutions based on the following criteria:
+\end{itemize}
 
-\section{Just some text}
-\label{sec:just-some-text}
-
-\section{Math}
-\label{sec:math}
-
-
-\section{Tables}
-\label{sec:tables}
-
+\subsection{Infrastructure}
+\label{sec:infra}
+\begin{itemize}
+  \item write about the differences between Kubernetes and other available cloud solutions such as Fogernetes\cite{Wobker2018} 
+\end{itemize}
 
 \section{Conclusion}
 \label{sec:concl}

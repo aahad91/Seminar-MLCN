@@ -1,9 +1,17 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'template.blg'
-[77] biber-darwin:322> INFO - === Wed Apr 29, 2020, 16:53:10
-[91] Biber.pm:415> INFO - Reading 'template.bcf'
-[182] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
-[187] Utils.pm:304> WARN - The file 'template.bcf' does not contain any citations!
-[195] bbl.pm:652> INFO - Writing 'template.bbl' with encoding 'UTF-8'
-[195] bbl.pm:755> INFO - Output to template.bbl
-[195] Biber.pm:128> INFO - WARNINGS: 1
+[79] biber-darwin:322> INFO - === Thu May  7, 2020, 16:55:39
+[96] Biber.pm:415> INFO - Reading 'template.bcf'
+[189] Biber.pm:943> INFO - Found 1 citekeys in bib section 0
+[203] Biber.pm:4256> INFO - Processing section 0
+[203] Utils.pm:75> INFO - Globbing data source 'bib.bib'
+[203] Utils.pm:91> INFO - Globbed data source 'bib.bib' to bib.bib
+[214] Biber.pm:4455> INFO - Looking for bibtex format file 'bib.bib' for section 0
+[215] bibtex.pm:1653> INFO - LaTeX decoding ...
+[221] bibtex.pm:1471> INFO - Found BibTeX data source 'bib.bib'
+[248] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[248] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[248] Biber.pm:4084> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[248] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[250] bbl.pm:652> INFO - Writing 'template.bbl' with encoding 'UTF-8'
+[251] bbl.pm:755> INFO - Output to template.bbl

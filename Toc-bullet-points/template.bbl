@@ -16,5 +16,51 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{ydnt/global//global/global}
+    \entry{Wobker2018}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=bbd8e180cfc64b8712bffa27d039b51d}{%
+           family={W{ö}bker},
+           familyi={W\bibinitperiod},
+           given={Cecil},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6ca77e98f2db5c83c0b36fd275e28455}{%
+           family={Seitz},
+           familyi={S\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1171ce8d138db6914e375a66db8cdf63}{%
+           family={Mueller},
+           familyi={M\bibinitperiod},
+           given={Harald},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b8bdd135888f142755ba93727bce527b}{%
+           family={Bruegge},
+           familyi={B\bibinitperiod},
+           given={Bernd},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {IEEE/IFIP Network Operations}%
+        {Management Symposium: Cognitive Management in a Cyber World, NOMS 2018}%
+      }
+      \strng{namehash}{95046c1febbc9cd6fa1f5348e184f094}
+      \strng{fullhash}{2b66655995550b115024c7fe59a9b2a5}
+      \strng{bibnamehash}{2b66655995550b115024c7fe59a9b2a5}
+      \strng{authorbibnamehash}{2b66655995550b115024c7fe59a9b2a5}
+      \strng{authornamehash}{95046c1febbc9cd6fa1f5348e184f094}
+      \strng{authorfullhash}{2b66655995550b115024c7fe59a9b2a5}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{https://ieeexplore.ieee.org/document/8406321}}
+      \field{title}{{Fogernetes: Deployment and management of fog computing applications}}
+      \field{year}{2018}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
