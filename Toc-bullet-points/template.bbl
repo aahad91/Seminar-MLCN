@@ -19,6 +19,134 @@
 
 \refsection{0}
   \datalist[entry]{ydnt/global//global/global}
+    \entry{Haja2019}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=737113d8d4068d08af3288f22b40fc25}{%
+           family={Haja},
+           familyi={H\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=94c490916201eb47613e0407c50ca44c}{%
+           family={Szalay},
+           familyi={S\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=baa819ebfd096505e43c3363cd535cc5}{%
+           family={Sonkoly},
+           familyi={S\bibinitperiod},
+           given={Balazs},
+           giveni={B\bibinitperiod}}}%
+        {{hash=ad511f6d907d9e006674274d70fe9009}{%
+           family={Pongracz},
+           familyi={P\bibinitperiod},
+           given={Gergely},
+           giveni={G\bibinitperiod}}}%
+        {{hash=8cad1794a937924b8d389d3040669bba}{%
+           family={Toka},
+           familyi={T\bibinitperiod},
+           given={Laszlo},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {SIGCOMM 2019 - Proceedings of the 2019 ACM SIGCOMM Conference Posters}%
+        {Demos, Part of SIGCOMM 2019}%
+      }
+      \strng{namehash}{5ae11cec0cecf14239c84f5a7705522a}
+      \strng{fullhash}{c2ccb977a839ed1ab1ea934712e2fcd2}
+      \strng{bibnamehash}{c2ccb977a839ed1ab1ea934712e2fcd2}
+      \strng{authorbibnamehash}{c2ccb977a839ed1ab1ea934712e2fcd2}
+      \strng{authornamehash}{5ae11cec0cecf14239c84f5a7705522a}
+      \strng{authorfullhash}{c2ccb977a839ed1ab1ea934712e2fcd2}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{https://dl.acm.org/doi/10.1145/3342280.3342335}}
+      \field{title}{{Sharpening Kubernetes for the Edge}}
+      \field{year}{2019}
+    \endentry
+    \entry{Reale}{report}{}
+      \name{author}{4}{}{%
+        {{hash=1b22bcba866c5e8545a3365f4c6bedfa}{%
+           family={Reale},
+           familyi={R\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4816869851eac3086c1820f59d0b3e9a}{%
+           family={Kiss},
+           familyi={K\bibinitperiod},
+           given={P{é}ter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=01e7b2fe8380f20e5a21d7c4df44b1a8}{%
+           family={T{ó}th},
+           familyi={T\bibinitperiod},
+           given={Melinda},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f2d2eb9be57eda36be5319618de801a6}{%
+           family={Horv{á}th},
+           familyi={H\bibinitperiod},
+           given={Zolt{á}n},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {INTERNATIONAL JOURNAL OF COMPUTERS}%
+        {COMMUNICATIONS,Vol13,2019}%
+      }
+      \strng{namehash}{0caaf14334ad5739817a0933de70f7b2}
+      \strng{fullhash}{5604323484fde3c9a3226f81bffcf2d1}
+      \strng{bibnamehash}{5604323484fde3c9a3226f81bffcf2d1}
+      \strng{authorbibnamehash}{5604323484fde3c9a3226f81bffcf2d1}
+      \strng{authornamehash}{0caaf14334ad5739817a0933de70f7b2}
+      \strng{authorfullhash}{5604323484fde3c9a3226f81bffcf2d1}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{http://www.naun.org/main/UPress/cc/2019/a022012-044.pdf}}
+      \field{title}{{Designing a decentralized container based Fog computing framework for task distribution and management}}
+      \field{type}{techreport}
+      \field{year}{2019}
+    \endentry
+    \entry{Santos2019}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=d2512e6bd5e6d32be0bfabdb04c9a7fd}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={Jose},
+           giveni={J\bibinitperiod}}}%
+        {{hash=42115a1a768de5b4fb8e99ee0a00b142}{%
+           family={Wauters},
+           familyi={W\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+        {{hash=0b020a5f4a5e7ab909067d921828e117}{%
+           family={Volckaert},
+           familyi={V\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+        {{hash=aaa6bc1f6f5b73fdd081a4479e896cd1}{%
+           family={{De Turck}},
+           familyi={D\bibinitperiod},
+           given={Filip},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE Conference on Network Softwarization Unleashing the Power of Network Softwarization, NetSoft 2019}%
+      }
+      \strng{namehash}{6db4e8c6ef9f7ebfdfab879384714721}
+      \strng{fullhash}{478529990464c9759feeebdc5e24e025}
+      \strng{bibnamehash}{478529990464c9759feeebdc5e24e025}
+      \strng{authorbibnamehash}{478529990464c9759feeebdc5e24e025}
+      \strng{authornamehash}{6db4e8c6ef9f7ebfdfab879384714721}
+      \strng{authorfullhash}{478529990464c9759feeebdc5e24e025}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{http://physics.nist.gov/Document/sp811.pdf}}
+      \field{title}{{Towards network-Aware resource provisioning in kubernetes for fog computing applications}}
+      \field{year}{2019}
+    \endentry
     \entry{Wobker2018}{inproceedings}{}
       \name{author}{4}{}{%
         {{hash=bbd8e180cfc64b8712bffa27d039b51d}{%
@@ -59,6 +187,51 @@
       \field{note}{\url{https://ieeexplore.ieee.org/document/8406321}}
       \field{title}{{Fogernetes: Deployment and management of fog computing applications}}
       \field{year}{2018}
+    \endentry
+    \entry{Bittencourt2017}{article}{}
+      \name{author}{5}{}{%
+        {{hash=eeb9af5b75b99d6a5558c332984746e9}{%
+           family={Bittencourt},
+           familyi={B\bibinitperiod},
+           given={Luiz\bibnamedelima F.},
+           giveni={L\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=ad13a9d0ae79a867aa48f54bcad38c58}{%
+           family={Diaz-Montes},
+           familyi={D\bibinithyphendelim M\bibinitperiod},
+           given={Javier},
+           giveni={J\bibinitperiod}}}%
+        {{hash=029e03ba4e08a5605b31a31f86375741}{%
+           family={Buyya},
+           familyi={B\bibinitperiod},
+           given={Rajkumar},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e9617d4a9d3e8ec220f0f157d7288f07}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={Omer\bibnamedelima F.},
+           giveni={O\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=ee97a5f5e835dcd76c77709d1787609a}{%
+           family={Parashar},
+           familyi={P\bibinitperiod},
+           given={Manish},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE Cloud Computing}%
+      }
+      \strng{namehash}{f33edffadab1fd4baa142b3012760517}
+      \strng{fullhash}{1338d699986874a14b1018256592d620}
+      \strng{bibnamehash}{1338d699986874a14b1018256592d620}
+      \strng{authorbibnamehash}{1338d699986874a14b1018256592d620}
+      \strng{authornamehash}{f33edffadab1fd4baa142b3012760517}
+      \strng{authorfullhash}{1338d699986874a14b1018256592d620}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{https://ieeexplore.ieee.org/document/7912261}}
+      \field{title}{{Mobility-Aware Application Scheduling in Fog Computing}}
+      \field{year}{2017}
     \endentry
   \enddatalist
 \endrefsection
