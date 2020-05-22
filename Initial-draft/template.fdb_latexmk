@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber template"] 1588892531 "template.bcf" "template.bbl" "template" 1590139900
+["biber template"] 1590146943 "template.bcf" "template.bbl" "template" 1590150320
   "bib.bib" 1588892484 3236 333ab81d7b44a2f01152124a3d2f5e69 ""
-  "template.bcf" 1588892546 101776 e278f1db3997dc284daa684e6f6c8a5a "pdflatex"
+  "template.bcf" 1590150320 101842 3922b099c652a953c00e0c2fd8a60178 "pdflatex"
   (generated)
   "template.bbl"
   "template.blg"
-["pdflatex"] 1588892541 "template.tex" "template.pdf" "template" 1590139900
+["pdflatex"] 1590150318 "template.tex" "template.pdf" "template" 1590150320
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc" 1388795362 7013 c55cc8669071ac14036c4a0c96c16202 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/stix/stix-ts1.enc" 1388795362 2836 154e6b0061f9b8cb549144b55b268339 ""
@@ -222,18 +222,18 @@
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1586288239 4811913 0be9a7e86c70a26e5e3042966bcd7097 ""
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1587063674 2432464 3ce72dedb06db925d6f195d5a0f72b09 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "content.tex" 1590139879 3842 0ba8cb2bc31358d24823271f7c2505ea ""
+  "content.tex" 1590150308 4763 a3caa01e3804e78e8c31eda73b4a35dc ""
   "metadata.tex" 1588171447 232 40b8444be719069cddbc0f46f7297dba ""
   "preface.tex" 1587458445 2330 0a2451a2adb5e1d97086e73cab575d91 ""
-  "template.aux" 1588892546 7463 07b450488f6e655f21ca251b661e21c8 "pdflatex"
-  "template.bbl" 1588892533 9425 8538b8c99450cf88c8bb5a371f9dac7b "biber template"
-  "template.out" 1588892546 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "template.run.xml" 1588892546 2326 41174ec41385d4a4321b1d5115f76777 "pdflatex"
-  "template.tex" 1590139900 536 b5ba7209c55139607e0b437c5779483f ""
+  "template.aux" 1590150320 7549 774e79995f4d7a52bd4b22da4e4ca16e "pdflatex"
+  "template.bbl" 1590146945 9462 35b1e0b9aec7b6425a649ae2580b8d88 "biber template"
+  "template.out" 1590150319 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "template.run.xml" 1590150320 2326 41174ec41385d4a4321b1d5115f76777 "pdflatex"
+  "template.tex" 1590150315 536 b5ba7209c55139607e0b437c5779483f ""
   (generated)
-  "template.log"
-  "template.pdf"
-  "template.aux"
   "template.bcf"
+  "template.aux"
   "template.run.xml"
   "template.out"
+  "template.log"
+  "template.pdf"
