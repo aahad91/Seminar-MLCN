@@ -2183,11 +2183,18 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="2">European commission 2008</bcf:citekey>
-    <bcf:citekey order="3">Santos2019</bcf:citekey>
-    <bcf:citekey order="4">Wobker2018</bcf:citekey>
-    <bcf:citekey order="5">Reale</bcf:citekey>
+    <bcf:citekey order="3">fog-comp-survey</bcf:citekey>
+    <bcf:citekey order="4">fog-comp-survey</bcf:citekey>
+    <bcf:citekey order="5">Chiang 2015; Aazam and Huh 2014</bcf:citekey>
     <bcf:citekey order="6">Bittencourt2017</bcf:citekey>
-    <bcf:citekey order="7">Haja2019</bcf:citekey>
+    <bcf:citekey order="7">Bittencourt2017</bcf:citekey>
+    <bcf:citekey order="8">Bittencourt2017</bcf:citekey>
+    <bcf:citekey order="9">Bittencourt2017</bcf:citekey>
+    <bcf:citekey order="10">Santos2019</bcf:citekey>
+    <bcf:citekey order="11">Wobker2018</bcf:citekey>
+    <bcf:citekey order="12">Reale</bcf:citekey>
+    <bcf:citekey order="13">Bittencourt2017</bcf:citekey>
+    <bcf:citekey order="14">Haja2019</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="ydnt">
