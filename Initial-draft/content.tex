@@ -30,8 +30,6 @@ Kubernetes act as IaaS for fog computing to provide resource for IoT application
 \section{Backgroud}
 \label{sec:backgroud}
 \begin{itemize}
-  \item Kubernetes Internal Archietecture and Main Components
-  \item Kubernetes works as an Orchestrator
   \item Kubernetes resource provisioning
   \item Concluding the section with pitfals of default scheduler of Kubernetes
 \end{itemize}
@@ -46,12 +44,18 @@ This section explains about the Kubernetes main components, working as Orchestra
 Kubernetes is an open-source project that manages the container-based applications deployed over multiple hosts. Kubernetes act as Orchestrator which is responsible for deploying, managing, scaling of container-based application\cite{kubernetes-github-repo}. Figure \ref{fig:k8s-comp} shows the main components coupled to work as one unit called kubernetes. It is based on master-slave model, consisting of one \emph{master node} and multiple \emph{worker nodes} \cite{Santos2019}. \emph{worker nodes} can be either physical or virtual resource such as physical servers or virtual machines. \emph{master node} communicates with \emph{worker nodes} using \emph{API} calls. \emph{API server} uses RESTFul API, for managing all the \emph{API} calls is also part of \emph{master node}. End-users communicates with kubernetes cluster using \emph{Kubectl}, which forward user requests to \emph{API server} and intern gets the result. \emph{Etcd} stores the data as key-value pair,which is used to store all configurations, states. It is one of the main component of kubernetes, which maintians the state across the cluster for synchorization of data. \emph{Control Manager} is resposible for monitoring of \emph{Etcd}. For any state change of cluster, \emph{Control Manager} forward the new state request using \emph{API server}. \emph{Kube Scheduler} is later in section \ref{sec:k8s_scheduler}. On \emph{worker node}, node agent known as \emph{Kubelet} which is resposible for maintain state based on \emph{API server} request. For any state change communicated by \emph{API server}, \emph{Kubelet} performs the desired operation such as starting or deleting of Docker containers. \emph{Image Registry} is resposible for managing the images required to create the container applications. \emph{Pod} is main component of \emph{worker node} where all the applications are deployed. Single \emph{Pod} represents the application which consists of multiple containers based on the services of application. \emph{Pod} is the collections of containers, volumes in an isolated environment which means there is no cross communication between two \emph{Pods}. Containers running in a \emph{Pod} share the same IP Address \cite{Santos2019}. Containers communicates using different ports, hence there is a limitaion to this apporach as two containers listening on same port cannot be in same \emph{Pod}\cite{Santos2019}.
 \subsection{Kubernetes as Orchestrator}
 \label{sec:k8s_orchestrator}
+Orchestrator is responsible for automating the processes that requires alot of human effort. As discussed in [https://containerjournal.com/features/whats-orchestrator-orchestrators-arent/], Orchestrator is responsible for following:
 \begin{itemize}
-  \item Orchestrator main functions
-  \item Comparison of available Orchestrator (OpenStack vs Kubernetes)
-  \item Workflow of Kubernetes as an Orchestrator (steps)
+  \item Starting or stopping of different applications.
+  \item Ensure Scalabilty of application for high usage demands.
+  \item Management of load across different nodes to avoid resource overhead.
+  \item Monitoring health of applications.
 \end{itemize}
-
+There are many Orchestrator currently available, but the most widely used are OpenStack and Kubernetes.
+\begin{enumerate}
+  \item OpenStack Orchestration: It provides template-based orcestration for cloud application to run on OpenStack. Template allows to create resources such as Virtual machines(Instances), Storage (Volumes), Networks etc. These resources are coupled together as OpenStack \emph{Project} to run cloud application.
+  \item Kubernetes Orchestration: It is responsible for automating deployment, scaling and management of container-based applications. \emph{master node} orcestrates the application across various \emph{worker node} based on resource availability.
+\end{enumerate}
 \subsection{Kubernetes Resource Provisioning}
 \label{sec:k8s_scheduler}
 \begin{itemize}
