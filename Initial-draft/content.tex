@@ -35,14 +35,15 @@ Kubernetes act as IaaS for fog computing to provide resource for IoT application
   \item Kubernetes resource provisioning
   \item Concluding the section with pitfals of default scheduler of Kubernetes
 \end{itemize}
-
+This section explains about the Kubernetes main components, working as Orchestrator and built-in resource provisioning techniques.
 \subsection{Kubernetes Main Components}
 \label{sec:k8s_main_comp}
-\begin{itemize}
-  \item Write about the Archietecture of Kubernetes with diagram
-  \item Write about the building blocks of Kubernetes and their working
-\end{itemize}
-
+\begin{figure}
+  \includegraphics[width=70mm]{figures/mlcn-k8s-components.pdf}
+  \caption{Kubernetes Cluster: Main Components\cite{Santos2019}}
+  \label{fig:k8s-comp}
+\end{figure}
+Kubernetes is an open-source project that manages the container-based applications deployed over multiple hosts. Kubernetes act as Orchestrator which is responsible for deploying, managing, scaling of container-based application\cite{kubernetes-github-repo}. Figure \ref{fig:k8s-comp} shows the main components coupled to work as one unit called kubernetes. It is based on master-slave model, consisting of one \emph{master node} and multiple \emph{worker nodes} \cite{Santos2019}. \emph{worker nodes} can be either physical or virtual resource such as physical servers or virtual machines. \emph{master node} communicates with \emph{worker nodes} using \emph{API} calls. \emph{API server} uses RESTFul API, for managing all the \emph{API} calls is also part of \emph{master node}. End-users communicates with kubernetes cluster using \emph{Kubectl}, which forward user requests to \emph{API server} and intern gets the result. \emph{Etcd} stores the data as key-value pair,which is used to store all configurations, states. It is one of the main component of kubernetes, which maintians the state across the cluster for synchorization of data. \emph{Control Manager} is resposible for monitoring of \emph{Etcd}. For any state change of cluster, \emph{Control Manager} forward the new state request using \emph{API server}. \emph{Kube Scheduler} is later in section \ref{sec:k8s_scheduler}. On \emph{worker node}, node agent known as \emph{Kubelet} which is resposible for maintain state based on \emph{API server} request. For any state change communicated by \emph{API server}, \emph{Kubelet} performs the desired operation such as starting or deleting of Docker containers. \emph{Image Registry} is resposible for managing the images required to create the container applications. \emph{Pod} is main component of \emph{worker node} where all the applications are deployed. Single \emph{Pod} represents the application which consists of multiple containers based on the services of application. \emph{Pod} is the collections of containers, volumes in an isolated environment which means there is no cross communication between two \emph{Pods}. Containers running in a \emph{Pod} share the same IP Address \cite{Santos2019}. Containers communicates using different ports, hence there is a limitaion to this apporach as two containers listening on same port cannot be in same \emph{Pod}\cite{Santos2019}.
 \subsection{Kubernetes as Orchestrator}
 \label{sec:k8s_orchestrator}
 \begin{itemize}

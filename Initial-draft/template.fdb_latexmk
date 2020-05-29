@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber template"] 1590242627 "template.bcf" "template.bbl" "template" 1590243110
+["biber template"] 1590774011 "template.bcf" "template.bbl" "template" 1590774259
   "bib.bib" 1588892484 3236 333ab81d7b44a2f01152124a3d2f5e69 ""
-  "template.bcf" 1590243110 102262 8ce12f93cd91d0bcd1f871a9df809e38 "pdflatex"
+  "template.bcf" 1590774194 102592 3a8d2ee7363e330687613da3918848e1 "pdflatex"
   (generated)
-  "template.blg"
   "template.bbl"
-["pdflatex"] 1590243108 "template.tex" "template.pdf" "template" 1590243110
+  "template.blg"
+["pdflatex"] 1590774193 "template.tex" "template.pdf" "template" 1590774259
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc" 1388795362 7013 c55cc8669071ac14036c4a0c96c16202 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/stix/stix-ts1.enc" 1388795362 2836 154e6b0061f9b8cb549144b55b268339 ""
@@ -222,19 +222,20 @@
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1586288239 4811913 0be9a7e86c70a26e5e3042966bcd7097 ""
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1587063674 2432464 3ce72dedb06db925d6f195d5a0f72b09 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "content.tex" 1590243106 7716 d2be91ecc6ade5307ec864b2196188d9 ""
+  "content.tex" 1590774256 10263 d4696cbac5538cbb729a05242e451982 ""
   "figures/mlcn-fog-1.pdf" 1590242043 49681 2c0b607f62693326fba4d56ccd09907b ""
+  "figures/mlcn-k8s-components.pdf" 1590773779 102452 8e48fdd4feb5bceb1ab8bcee1ede2d41 ""
   "metadata.tex" 1588171447 232 40b8444be719069cddbc0f46f7297dba ""
   "preface.tex" 1587458445 2330 0a2451a2adb5e1d97086e73cab575d91 ""
-  "template.aux" 1590243110 8381 403e9469173f57e117daf1453e1e8100 "pdflatex"
-  "template.bbl" 1590242628 9534 014481a893216636806607078703d0bf "biber template"
-  "template.out" 1590243109 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "template.run.xml" 1590243110 2326 41174ec41385d4a4321b1d5115f76777 "pdflatex"
-  "template.tex" 1590243108 536 b5ba7209c55139607e0b437c5779483f ""
+  "template.aux" 1590774194 9070 c8f99eaa40e5f147e9198d94ca6d4ab6 "pdflatex"
+  "template.bbl" 1590774013 9569 410846ea023e17c683c3ab39f05ec201 "biber template"
+  "template.out" 1590774194 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "template.run.xml" 1590774194 2326 41174ec41385d4a4321b1d5115f76777 "pdflatex"
+  "template.tex" 1590774259 536 b5ba7209c55139607e0b437c5779483f ""
   (generated)
-  "template.run.xml"
-  "template.pdf"
-  "template.bcf"
-  "template.log"
   "template.aux"
+  "template.bcf"
+  "template.run.xml"
   "template.out"
+  "template.pdf"
+  "template.log"

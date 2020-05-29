@@ -2191,10 +2191,16 @@
     <bcf:citekey order="8">Bittencourt2017</bcf:citekey>
     <bcf:citekey order="9">Bittencourt2017</bcf:citekey>
     <bcf:citekey order="10">Santos2019</bcf:citekey>
-    <bcf:citekey order="11">Wobker2018</bcf:citekey>
-    <bcf:citekey order="12">Reale</bcf:citekey>
-    <bcf:citekey order="13">Bittencourt2017</bcf:citekey>
-    <bcf:citekey order="14">Haja2019</bcf:citekey>
+    <bcf:citekey order="11">Santos2019</bcf:citekey>
+    <bcf:citekey order="12">kubernetes-github-repo</bcf:citekey>
+    <bcf:citekey order="13">Santos2019</bcf:citekey>
+    <bcf:citekey order="14">Santos2019</bcf:citekey>
+    <bcf:citekey order="15">Santos2019</bcf:citekey>
+    <bcf:citekey order="16">Santos2019</bcf:citekey>
+    <bcf:citekey order="17">Wobker2018</bcf:citekey>
+    <bcf:citekey order="18">Reale</bcf:citekey>
+    <bcf:citekey order="19">Bittencourt2017</bcf:citekey>
+    <bcf:citekey order="20">Haja2019</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="ydnt">
