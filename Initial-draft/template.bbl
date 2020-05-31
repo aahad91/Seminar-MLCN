@@ -19,6 +19,18 @@
 
 \refsection{0}
   \datalist[entry]{ydnt/global//global/global}
+    \entry{k8s}{misc}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labeltitlesource}{title}
+      \field{title}{{Production-Grade Container Orchestration - Kubernetes}}
+      \verb{urlraw}
+      \verb https://kubernetes.io/
+      \endverb
+      \verb{url}
+      \verb https://kubernetes.io/
+      \endverb
+    \endentry
     \entry{Haja2019}{inproceedings}{}
       \name{author}{5}{}{%
         {{hash=737113d8d4068d08af3288f22b40fc25}{%
@@ -238,6 +250,7 @@
   \missing{European commission 2008}
   \missing{fog-comp-survey}
   \missing{kubernetes-github-repo}
+  \missing{openstack-orchestration}
 \endrefsection
 \endinput
 

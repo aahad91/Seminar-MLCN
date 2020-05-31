@@ -27,7 +27,7 @@ Fog computing is defined as \emph{"an archietecture that uses one or a collabora
 \end{figure}
 Fog computing is responsible for providing resources to IoT devices for processing. Traditionally these resources are allocated as VMs from different cloud infrastructures such as AWS, Google, OpenStack, etc. to run the applications. VMs are considered resource greedy and require more computational resources. Alternate is to use the Containers such as Docker which are light-weight, requires less resources and based on micro-service architecture. Large applications are split into containers based on the main processes of the application. This increasing number of containers per application required the proper monitoring for health check and resource consumption. The most commonly used orchestrator for containers is Kubernetes. \par
 Kubernetes act as IaaS for fog computing to provide resource for IoT applications. Kubernetes is an open-source platform for management, deployment and scaling of containers. In Kubernetes, applications are deployed as pod consisting of multiple containers. When the configuration of deploying application is passed to Kubernetes, it checks for the availability of resources and deploys afterward. Kubernetes default resource scheduler monitor and deploys the pod using computation power-based scheduling mechanism and does not consider latency and available bandwidth, which is considered important while dealing with data-centric application. Example of data-centric application is weather forecast that receives data from scattered IoT devices and provide prediction. If the data is lost or delayed due higher latency and poor bandwidth, timely decisions cannot be made that leads to disaster. To overcome this drawback of Kubernetes, author proposed an alternate Kubernetes scheduler that consider network resources along with computational resources.
-\section{Backgroud}
+\section{Background}
 \label{sec:backgroud}
 \begin{itemize}
   \item Kubernetes resource provisioning
@@ -41,7 +41,7 @@ This section explains about the Kubernetes main components, working as Orchestra
   \caption{Kubernetes Cluster: Main Components\cite{Santos2019}}
   \label{fig:k8s-comp}
 \end{figure}
-Kubernetes is an open-source project that manages the container-based applications deployed over multiple hosts. Kubernetes act as Orchestrator which is responsible for deploying, managing, scaling of container-based application\cite{kubernetes-github-repo}. Figure \ref{fig:k8s-comp} shows the main components coupled to work as one unit called kubernetes. It is based on master-slave model, consisting of one \emph{master node} and multiple \emph{worker nodes} \cite{Santos2019}. \emph{worker nodes} can be either physical or virtual resource such as physical servers or virtual machines. \emph{master node} communicates with \emph{worker nodes} using \emph{API} calls. \emph{API server} uses RESTFul API, for managing all the \emph{API} calls is also part of \emph{master node}. End-users communicates with kubernetes cluster using \emph{Kubectl}, which forward user requests to \emph{API server} and intern gets the result. \emph{Etcd} stores the data as key-value pair,which is used to store all configurations, states. It is one of the main component of kubernetes, which maintians the state across the cluster for synchorization of data. \emph{Control Manager} is resposible for monitoring of \emph{Etcd}. For any state change of cluster, \emph{Control Manager} forward the new state request using \emph{API server}. \emph{Kube Scheduler} is later in section \ref{sec:k8s_scheduler}. On \emph{worker node}, node agent known as \emph{Kubelet} which is resposible for maintain state based on \emph{API server} request. For any state change communicated by \emph{API server}, \emph{Kubelet} performs the desired operation such as starting or deleting of Docker containers. \emph{Image Registry} is resposible for managing the images required to create the container applications. \emph{Pod} is main component of \emph{worker node} where all the applications are deployed. Single \emph{Pod} represents the application which consists of multiple containers based on the services of application. \emph{Pod} is the collections of containers, volumes in an isolated environment which means there is no cross communication between two \emph{Pods}. Containers running in a \emph{Pod} share the same IP Address \cite{Santos2019}. Containers communicates using different ports, hence there is a limitaion to this apporach as two containers listening on same port cannot be in same \emph{Pod}\cite{Santos2019}.
+Kubernetes is an open-source project that manages the container-based applications deployed over multiple hosts. Kubernetes act as Orchestrator which is responsible for deploying, managing, scaling of container-based application\cite{kubernetes-github-repo}. Figure \ref{fig:k8s-comp} shows the main components coupled to work as one unit called kubernetes. It is based on master-slave model, consisting of one \emph{master node} and multiple \emph{worker nodes} \cite{Santos2019}. \emph{worker nodes} can be either physical or virtual resource such as physical servers or virtual machines. \emph{master node} communicates with \emph{worker nodes} using \emph{API} calls. \emph{API server} uses RESTFul API, for managing all the \emph{API} calls is also part of \emph{master node}. End-users communicates with kubernetes cluster using \emph{Kubectl}, which forward user requests to \emph{API server} and intern gets the result. \emph{Etcd} stores the data as key-value pair,which is used to store all configurations, states. It is one of the main component of kubernetes, which maintians the state across the cluster for synchorization of data. \emph{Control Manager} is resposible for monitoring of \emph{Etcd}. For any state change of cluster, \emph{Control Manager} forward the new state request using \emph{API server}. \emph{Kube Scheduler} is discussed later in section \ref{sec:k8s_scheduler}. On \emph{worker node}, node agent known as \emph{Kubelet} which is resposible for maintain state based on \emph{API server} request. For any state change communicated by \emph{API server}, \emph{Kubelet} performs the desired operation such as starting or deleting of Docker containers. \emph{Image Registry} is resposible for managing the images required to create the container applications. \emph{Pod} is main component of \emph{worker node} where all the applications are deployed. Single \emph{Pod} represents the application which consists of multiple containers based on the services of application. \emph{Pod} is the collections of containers, volumes in an isolated environment which means there is no cross communication between two \emph{Pods}. Containers running in a \emph{Pod} share the same IP Address \cite{Santos2019}. Containers communicates using different ports, hence there is a limitaion to this apporach as two containers listening on same port cannot be in same \emph{Pod}\cite{Santos2019}.
 \subsection{Kubernetes as Orchestrator}
 \label{sec:k8s_orchestrator}
 Orchestrator is responsible for automating the processes that requires alot of human effort. As discussed in [https://containerjournal.com/features/whats-orchestrator-orchestrators-arent/], Orchestrator is responsible for following:
@@ -53,7 +53,7 @@ Orchestrator is responsible for automating the processes that requires alot of h
 \end{itemize}
 There are many Orchestrator currently available, but the most widely used are OpenStack and Kubernetes.
 \begin{enumerate}
-  \item OpenStack Orchestration: It provides template-based orcestration for cloud application to run on OpenStack. Template allows to create resources such as Virtual machines(Instances), Storage (Volumes), Networks etc. These resources are coupled together as OpenStack \emph{Project} to run cloud application.
+  \item OpenStack Orchestration: It provides template-based orcestration for cloud application to run on OpenStack. Template allows to create resources such as Virtual machines(Instances), Storage (Volumes), Networks etc. These resources are coupled together as OpenStack \emph{Project} to run cloud application\cite{openstack-orchestration}.
   \item Kubernetes Orchestration: It is responsible for automating deployment, scaling and management of container-based applications. \emph{master node} orcestrates the application across various \emph{worker node} based on resource availability.
 \end{enumerate}
 \subsection{Kubernetes Resource Provisioning}
@@ -63,7 +63,42 @@ There are many Orchestrator currently available, but the most widely used are Op
   \item its main Components
   \item workflow of default scheduler
 \end{itemize}
-
+\begin{figure}
+  \includegraphics[width=70mm]{figures/mlcn-k8s-scheduler.pdf}
+  \caption{Kubernetes Scheduler: Working\cite{Santos2019}}
+  \label{fig:k8s-sch}
+\end{figure}
+When the user provides the configuration for creating new \emph{pod} using \emph{Kubectl}. \emph{Pod} is added to the waiting queue with all the other \emph{pods}. \emph{Kube-Scheduler} which is the default scheduler of kubernetes, decides which \emph{pod} deploys on which \emph{worker node} based on some criteria. Figure \ref{fig:k8s-sch} shows the default scheduling mechanism where \emph{pod} is deployed by passing through following steps: \emph{node filtering} and \emph{node priority or scoring}\cite{Santos2019}. In the kubernetes cluster\emph{worker nods} meeting the requirement of \emph{ped} are called \emph{feasible nodes}\cite{k8s}.
+\subsubsection{\emph{Node Filtering}}
+\label{sec:node-filter}
+The first step of deploying \emph{pod} is \emph{node filtering} in which \emph{Kube-Scheduler} will select the \emph{feasible nodes} based on the \emph{pod} configuration by applying some filters. These filter are also called \emph{predicates}. Following is the list of \emph{predicates} that are supported by \emph{Kube-Scheduler}\cite{k8s}:
+\begin{enumerate}
+  \item \textbf{PodFitsHostPorts:} This filters checks the \emph{worker node} for the ports requested by the \emph{pod}.
+  \item \textbf{PodFitHost:} This filter checks for \emph{worker node} with hostname mentioned in \emph{pod} configuration.
+  \item \textbf{PodFitsResources:} This filter checks for the available resources i.e. CPUs and Memory to run the \emph{pod}.
+  \item \textbf{NoDiskConflict:} This filter checks the \emph{worker node} for the volumes requested by the \emph{pod} and are already mounted.
+  \item \textbf{CheckNodeMemoryPressure:} This filter checks the \emph{worker node} for over-utilization of Memory.
+  \item \textbf{CheckNodeDiskPressure:} This filter checks the \emph{worker node} disk space and filesystem, sufficient to run the \emph{pod}.
+  \item \textbf{CheckNodeCondition:} This filter checks the \emph{worker node} for available disk space, networking configuration and that of \emph{Kubelet} is reachable or not.
+  \item \textbf{PodMatchNodeSelector:} This filter search for the \emph{worker node} based on the label mentioned in \emph{pod} configuration. These labels allows the user to deploy the \emph{pod} on specfic \emph{worker node}(node-affinity)\cite{Santos2019}. Other usecase of using label is to restrict the \emph{pod} deployment based on other \emph{pod} already deployed on that \emph{worker node} (pod-anti-affinity) \cite{Santos2019}. These affinity rules are based on \emph{Tolerations} and \emph{Taints} which are defined as key-value pair along with their effects. \emph{Tolerations} are defined in \emph{pod} configration whereas \emph{Taints} are set for \emph{worker node}. Both \emph{Tolerations} and \emph{Taints} work together to ensure \emph{pod} is not deployed on inapproriate \emph{worker node} \cite{k8s}.
+\end{enumerate}
+Using the above mentioned filters(\emph{predicates}), \emph{Kube-Scheduler} returns the \emph{feasible node} for \emph{pod} deployment. If no \emph{feasible node} is found, \emph{pod} remains un-scheduled and error message is generated for failed deployment \cite{Santos2019}. If the list of \emph{feasible node} is returned as the result of applying filters then \emph{Kube-Scheduler} moves to second step \emph{node priority or scoring}.
+\subsubsection{\emph{Node Priority/Scoring}}
+\label{sec:node-priority}
+\emph{Kube-Scheduler} assign rank to each \emph{worker node} that passes the \emph{node filtering} stage. These ranks/priorities sort the list of \emph{worker node} based on best-fit for \emph{pod} deployment. These priorities are set based on following criteria\cite{k8s}:
+\begin{enumerate}
+  \item \textbf{SelectorSpreadPriority:} "This priority algorithm tries to minimize the number of deployed pods belonging to the same service on the same node or on the same zone/rack"\cite{Santos2019}.
+  \item \textbf{InterPodAffinityPriority:} 
+  \item \textbf{LeastRequestedPriority:}
+  \item \textbf{MostRequestedPriority:}
+  \item \textbf{RequestedToCapacityRatioPriority:}
+  \item \textbf{BalancedResourceAllocation:}
+  \item \textbf{NodeAffinityPriority:}
+  \item \textbf{TaintTolerationPriority:}
+  \item \textbf{ImageLocalityPriority:}
+  \item \textbf{ServiceSpreadingPriority:}
+  \item \textbf{EqualPriority:}
+\end{enumerate}
 \section{Kubernetes Network-based Resource Provisioning}
 \label{sec: k8s_ns}
 \begin{itemize}
