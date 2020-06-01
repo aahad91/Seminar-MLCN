@@ -29,10 +29,6 @@ Fog computing is responsible for providing resources to IoT devices for processi
 Kubernetes act as IaaS for fog computing to provide resource for IoT applications. Kubernetes is an open-source platform for management, deployment and scaling of containers. In Kubernetes, applications are deployed as pod consisting of multiple containers. When the configuration of deploying application is passed to Kubernetes, it checks for the availability of resources and deploys afterward. Kubernetes default resource scheduler monitor and deploys the pod using computation power-based scheduling mechanism and does not consider latency and available bandwidth, which is considered important while dealing with data-centric application. Example of data-centric application is weather forecast that receives data from scattered IoT devices and provide prediction. If the data is lost or delayed due higher latency and poor bandwidth, timely decisions cannot be made that leads to disaster. To overcome this drawback of Kubernetes, author proposed an alternate Kubernetes scheduler that consider network resources along with computational resources.
 \section{Background}
 \label{sec:backgroud}
-\begin{itemize}
-  \item Kubernetes resource provisioning
-  \item Concluding the section with pitfals of default scheduler of Kubernetes
-\end{itemize}
 This section explains about the Kubernetes main components, working as Orchestrator and built-in resource provisioning techniques.
 \subsection{Kubernetes Main Components}
 \label{sec:k8s_main_comp}
@@ -44,7 +40,7 @@ This section explains about the Kubernetes main components, working as Orchestra
 Kubernetes is an open-source project that manages the container-based applications deployed over multiple hosts. Kubernetes act as Orchestrator which is responsible for deploying, managing, scaling of container-based application\cite{kubernetes-github-repo}. Figure \ref{fig:k8s-comp} shows the main components coupled to work as one unit called kubernetes. It is based on master-slave model, consisting of one \emph{master node} and multiple \emph{worker nodes} \cite{Santos2019}. \emph{worker nodes} can be either physical or virtual resource such as physical servers or virtual machines. \emph{master node} communicates with \emph{worker nodes} using \emph{API} calls. \emph{API server} uses RESTFul API, for managing all the \emph{API} calls is also part of \emph{master node}. End-users communicates with kubernetes cluster using \emph{Kubectl}, which forward user requests to \emph{API server} and intern gets the result. \emph{Etcd} stores the data as key-value pair,which is used to store all configurations, states. It is one of the main component of kubernetes, which maintians the state across the cluster for synchorization of data. \emph{Control Manager} is resposible for monitoring of \emph{Etcd}. For any state change of cluster, \emph{Control Manager} forward the new state request using \emph{API server}. \emph{Kube Scheduler} is discussed later in section \ref{sec:k8s_scheduler}. On \emph{worker node}, node agent known as \emph{Kubelet} which is resposible for maintain state based on \emph{API server} request. For any state change communicated by \emph{API server}, \emph{Kubelet} performs the desired operation such as starting or deleting of Docker containers. \emph{Image Registry} is resposible for managing the images required to create the container applications. \emph{Pod} is main component of \emph{worker node} where all the applications are deployed. Single \emph{Pod} represents the application which consists of multiple containers based on the services of application. \emph{Pod} is the collections of containers, volumes in an isolated environment which means there is no cross communication between two \emph{Pods}. Containers running in a \emph{Pod} share the same IP Address \cite{Santos2019}. Containers communicates using different ports, hence there is a limitaion to this apporach as two containers listening on same port cannot be in same \emph{Pod}\cite{Santos2019}.
 \subsection{Kubernetes as Orchestrator}
 \label{sec:k8s_orchestrator}
-Orchestrator is responsible for automating the processes that requires alot of human effort. As discussed in [https://containerjournal.com/features/whats-orchestrator-orchestrators-arent/], Orchestrator is responsible for following:
+Orchestrator is responsible for automating the processes that requires alot of human effort. As discussed in \cite{containerjournal}, Orchestrator is responsible for following:
 \begin{itemize}
   \item Starting or stopping of different applications.
   \item Ensure Scalabilty of application for high usage demands.
@@ -53,16 +49,11 @@ Orchestrator is responsible for automating the processes that requires alot of h
 \end{itemize}
 There are many Orchestrator currently available, but the most widely used are OpenStack and Kubernetes.
 \begin{enumerate}
-  \item OpenStack Orchestration: It provides template-based orcestration for cloud application to run on OpenStack. Template allows to create resources such as Virtual machines(Instances), Storage (Volumes), Networks etc. These resources are coupled together as OpenStack \emph{Project} to run cloud application\cite{openstack-orchestration}.
+  \item OpenStack Orchestration: It provides template-based orcestration for cloud application to run on OpenStack. Template allows to create resources such as Virtual machines(Instances), Storage (Volumes), Networks etc. These resources are coupled together as OpenStack \emph{Project} to run cloud application\cite{openstackOrchestrator}.
   \item Kubernetes Orchestration: It is responsible for automating deployment, scaling and management of container-based applications. \emph{master node} orcestrates the application across various \emph{worker node} based on resource availability.
 \end{enumerate}
 \subsection{Kubernetes Resource Provisioning}
 \label{sec:k8s_scheduler}
-\begin{itemize}
-  \item write about the default Kubernetes scheduler
-  \item its main Components
-  \item workflow of default scheduler
-\end{itemize}
 \begin{figure}
   \includegraphics[width=70mm]{figures/mlcn-k8s-scheduler.pdf}
   \caption{Kubernetes Scheduler: Working\cite{Santos2019}}
@@ -88,17 +79,17 @@ Using the above mentioned filters(\emph{predicates}), \emph{Kube-Scheduler} retu
 \emph{Kube-Scheduler} assign rank to each \emph{worker node} that passes the \emph{node filtering} stage. These ranks/priorities sort the list of \emph{worker node} based on best-fit for \emph{pod} deployment. These priorities are set based on following criteria\cite{k8s}:
 \begin{enumerate}
   \item \textbf{SelectorSpreadPriority:} "This priority algorithm tries to minimize the number of deployed pods belonging to the same service on the same node or on the same zone/rack"\cite{Santos2019}.
-  \item \textbf{InterPodAffinityPriority:} 
-  \item \textbf{LeastRequestedPriority:}
-  \item \textbf{MostRequestedPriority:}
-  \item \textbf{RequestedToCapacityRatioPriority:}
-  \item \textbf{BalancedResourceAllocation:}
-  \item \textbf{NodeAffinityPriority:}
-  \item \textbf{TaintTolerationPriority:}
-  \item \textbf{ImageLocalityPriority:}
-  \item \textbf{ServiceSpreadingPriority:}
-  \item \textbf{EqualPriority:}
+  \item \textbf{InterPodAffinityPriority:} This priority sets the score for \emph{worker node} based on the pod-affinity rule mentioned above.
+  \item \textbf{LeastRequestedPriority:} This priority sets the score for \emph{worker node} based on the higher available resources i.e. CPU and Memory.
+  \item \textbf{MostRequestedPriority:} This priority sets the score for \emph{worker node} based on the minimum resource requirement for \emph{pod} deployment.
+  \item \textbf{RequestedToCapacityRatioPriority:} This priority sets the score for \emph{worker node} based on request to capacity using ResourceAllocationPriority.
+  \item \textbf{BalancedResourceAllocation:} This priority selects the \emph{worker node} with balanced resource utilization.
+  \item \textbf{NodeAffinityPriority:} This priority selects the \emph{worker node} based on node-affinity rule. \emph{Worker node} with the required label will be given priority.
+  \item \textbf{TaintTolerationPriority:} This priority sets the score for \emph{worker node} based on their \emph{taints} with respect to \emph{tolerations} mentioned in \emph{pod} configuration\cite{Santos2019}.
+  \item \textbf{ImageLocalityPriority:} This priority sets the score for \emph{worker node} based on the availability of the image on \emph{worker node} required to build the containers for \emph{pod}.
+  \item \textbf{EqualPriority:} This priority sets the equal weight to all the \emph{worker nodes}.
 \end{enumerate}
+
 \section{Kubernetes Network-based Resource Provisioning}
 \label{sec: k8s_ns}
 \begin{itemize}

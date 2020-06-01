@@ -19,6 +19,30 @@
 
 \refsection{0}
   \datalist[entry]{ydnt/global//global/global}
+    \entry{containerjournal}{misc}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labeltitlesource}{title}
+      \field{title}{{Container Journal - What is an Orchestrator?}}
+      \verb{urlraw}
+      \verb https://containerjournal.com/features/whats-orchestrator-orchestrators-arent/
+      \endverb
+      \verb{url}
+      \verb https://containerjournal.com/features/whats-orchestrator-orchestrators-arent/
+      \endverb
+    \endentry
+    \entry{openstackOrchestrator}{misc}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labeltitlesource}{title}
+      \field{title}{{OpenStack - Orchestration service overview}}
+      \verb{urlraw}
+      \verb https://docs.openstack.org/mitaka/install-guide-rdo/common/get_started_orchestration.html
+      \endverb
+      \verb{url}
+      \verb https://docs.openstack.org/mitaka/install-guide-rdo/common/get_started_orchestration.html
+      \endverb
+    \endentry
     \entry{k8s}{misc}{}
       \field{sortinit}{9}
       \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
@@ -250,7 +274,6 @@
   \missing{European commission 2008}
   \missing{fog-comp-survey}
   \missing{kubernetes-github-repo}
-  \missing{openstack-orchestration}
 \endrefsection
 \endinput
 

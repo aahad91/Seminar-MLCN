@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.16)  31 MAY 2020 21:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.16)  1 JUN 2020 02:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1100,13 +1100,6 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                openstack-orchestration
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
 )
 
 Package biblatex Warning: citation 'European commission 2008' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
@@ -1119,9 +1112,6 @@ Package biblatex Warning: citation 'Chiang 2015; Aazam and Huh 2014' was not fou
 
 
 Package biblatex Warning: citation 'kubernetes-github-repo' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'openstack-orchestration' was not found at all in the .bbl, bibliography labels cannot be generated, please correct the citation.
 
 Package biblatex Info: Reference section=0 on input line 20.
 Package biblatex Info: Reference segment=0 on input line 20.
@@ -1315,7 +1305,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--22
 
 
 Underfull \hbox (badness 1052) in paragraph at lines 22--22
-\T1/stix/m/n/10 (+10) [[]5[]]. In fog com-put-ing these ac-cess points also
+\T1/stix/m/n/10 (+10) [[]8[]]. In fog com-put-ing these ac-cess points also
  []
 
 
@@ -1332,7 +1322,62 @@ Package pdftex.def Info: figures/mlcn-fog-1.pdf  used on input line 24.
 
 
  <./figures/mlcn-fog-1.pdf>]
-LaTeX Font Info:    Trying to load font information for TS1+stix on input line 33.
+
+pdfTeX warning: pdflatex (file ./figures/mlcn-k8s-components.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/mlcn-k8s-components.pdf, id=51, 513.41812pt x 715.17188pt>
+File: figures/mlcn-k8s-components.pdf Graphic file (type pdf)
+<use figures/mlcn-k8s-components.pdf>
+Package pdftex.def Info: figures/mlcn-k8s-components.pdf  used on input line 36.
+(pdftex.def)             Requested size: 199.16928pt x 277.43178pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+\T1/stix/m/n/10 (+10) Kubernetes is an open-source project that
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+\T1/stix/m/n/10 (+10) man-ages the container-based ap-pli-ca-tions de-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+\T1/stix/m/n/10 (+10) ployed over mul-ti-ple hosts. Ku-ber-netes act
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+\T1/stix/m/n/10 (+10) as Or-ches-tra-tor which is re-spon-si-ble for de-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+\T1/stix/m/n/10 (+10) ploy-ing, man-ag-ing, scal-ing of container-based
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+\T1/stix/m/n/10 (+10) application[[]]. Fig-ure []2[]
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 40--41
+\T1/stix/m/it/10 (+10) worker nodes \T1/stix/m/n/10 (+10) [[]6[]]. \T1/stix/m/it/10 (+10) worker nodes \T1/stix/m/n/10 (+10) can be ei-ther
+ []
+
+
+Underfull \hbox (badness 3375) in paragraph at lines 40--41
+\T1/stix/m/it/10 (+10) Man-ager \T1/stix/m/n/10 (+10) for-ward the new state re-quest us-ing
+ []
+
+
+Underfull \hbox (badness 1867) in paragraph at lines 40--41
+\T1/stix/m/n/10 (+10) there is no cross com-mu-ni-ca-tion be-tween two
+ []
+
+LaTeX Font Info:    Font shape `T1/stix/m/sl' in size <10> not available
+(Font)              Font shape `T1/stix/m/it' tried instead on input line 41.
+[2 <./figures/mlcn-k8s-components.pdf>]
+LaTeX Font Info:    Trying to load font information for TS1+stix on input line 45.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/stix/ts1stix.fd
 File: ts1stix.fd 2015/04/17 v1.1.2-latex STIX TS1 font definitions
 )
@@ -1342,120 +1387,16 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 
 
-pdfTeX warning: pdflatex (file ./figures/mlcn-k8s-components.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/mlcn-k8s-components.pdf, id=51, 513.41812pt x 715.17188pt>
-File: figures/mlcn-k8s-components.pdf Graphic file (type pdf)
-<use figures/mlcn-k8s-components.pdf>
-Package pdftex.def Info: figures/mlcn-k8s-components.pdf  used on input line 40.
-(pdftex.def)             Requested size: 199.16928pt x 277.43178pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
-\T1/stix/m/n/10 (+10) Kubernetes is an open-source project that
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
-\T1/stix/m/n/10 (+10) man-ages the container-based ap-pli-ca-tions de-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
-\T1/stix/m/n/10 (+10) ployed over mul-ti-ple hosts. Ku-ber-netes act
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
-\T1/stix/m/n/10 (+10) as Or-ches-tra-tor which is re-spon-si-ble for de-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
-\T1/stix/m/n/10 (+10) ploy-ing, man-ag-ing, scal-ing of container-based
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
-\T1/stix/m/n/10 (+10) application[[]]. Fig-ure []2[]
- []
-
-
-Underfull \hbox (badness 1852) in paragraph at lines 44--45
-\T1/stix/m/it/10 (+10) worker nodes \T1/stix/m/n/10 (+10) [[]3[]]. \T1/stix/m/it/10 (+10) worker nodes \T1/stix/m/n/10 (+10) can be ei-ther
- []
-
-
-Underfull \hbox (badness 3375) in paragraph at lines 44--45
-\T1/stix/m/it/10 (+10) Man-ager \T1/stix/m/n/10 (+10) for-ward the new state re-quest us-ing
- []
-
-
-Underfull \hbox (badness 1867) in paragraph at lines 44--45
-\T1/stix/m/n/10 (+10) there is no cross com-mu-ni-ca-tion be-tween two
- []
-
-
-Underfull \vbox (badness 2726) has occurred while \output is active []
-
-LaTeX Font Info:    Font shape `T1/stix/m/sl' in size <10> not available
-(Font)              Font shape `T1/stix/m/it' tried instead on input line 45.
- [2 <./figures/mlcn-k8s-components.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
-\T1/stix/m/n/10 (+10) Orchestrator is re-spon-si-ble for au-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
-\T1/stix/m/n/10 (+10) tomat-ing the pro-cesses that re-quires
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
-\T1/stix/m/n/10 (+10) alot of hu-man ef-fort. As dis-cussed in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
-\T1/stix/m/n/10 (+10) [https://containerjournal.com/features/whats-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
-\T1/stix/m/n/10 (+10) orchestrator-orchestrators-arent/], Or-ches-tra-tor is
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
-[]\T1/stix/m/n/10 (+10) OpenStack Or-ches-tra-tion: It pro-vides
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
-\T1/stix/m/n/10 (+10) template-based or-ces-tra-tion for cloud ap-
- []
-
-
-Underfull \hbox (badness 2735) in paragraph at lines 56--57
-\T1/stix/m/n/10 (+10) pli-ca-tion to run on Open-Stack. Tem-plate
- []
-
-
-Underfull \hbox (badness 1472) in paragraph at lines 56--57
-\T1/stix/m/n/10 (+10) al-lows to cre-ate re-sources such as Vir-tual
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
-\T1/stix/m/n/10 (+10) ma-chines(Instances), Stor-age (Vol-umes),
- []
-
-
-
 pdfTeX warning: pdflatex (file ./figures/mlcn-k8s-scheduler.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/mlcn-k8s-scheduler.pdf, id=72, 594.585pt x 641.66998pt>
+<figures/mlcn-k8s-scheduler.pdf, id=73, 594.585pt x 641.66998pt>
 File: figures/mlcn-k8s-scheduler.pdf Graphic file (type pdf)
 <use figures/mlcn-k8s-scheduler.pdf>
-Package pdftex.def Info: figures/mlcn-k8s-scheduler.pdf  used on input line 67.
+Package pdftex.def Info: figures/mlcn-k8s-scheduler.pdf  used on input line 58.
 (pdftex.def)             Requested size: 199.16928pt x 214.93384pt.
+
+Underfull \vbox (badness 1852) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
 Make it at least 34.30502pt.
@@ -1463,27 +1404,47 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [3 <./figures/mlcn-k8s-scheduler.pdf>]
-Underfull \hbox (badness 2818) in paragraph at lines 76--77
+Underfull \hbox (badness 2818) in paragraph at lines 67--68
 []\T1/stix/b/n/10 PodFitsHostPorts: \T1/stix/m/n/10 (+10) This fil-ters checks the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
 []\T1/stix/b/n/10 CheckNodeMemoryPressure: \T1/stix/m/n/10 (+10) This fil-ter
  []
 
 
-Underfull \hbox (badness 1540) in paragraph at lines 83--84
+Underfull \hbox (badness 1540) in paragraph at lines 74--75
 \T1/stix/m/n/10 (+10) user to de-ploy the \T1/stix/m/it/10 (+10) pod \T1/stix/m/n/10 (+10) on specfic \T1/stix/m/it/10 (+10) worker
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 \T1/stix/m/it/10 (+10) Kube-Scheduler \T1/stix/m/n/10 (+10) as-sign rank to each \T1/stix/m/it/10 (+10) worker
  []
 
+
+Underfull \hbox (badness 1237) in paragraph at lines 83--84
+[]\T1/stix/b/n/10 LeastRequestedPriority: \T1/stix/m/n/10 (+10) This pri-or-ity sets
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+[]\T1/stix/b/n/10 RequestedToCapacityRatioPriority: \T1/stix/m/n/10 (+10) This
+ []
+
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 1789) in paragraph at lines 87--88
+[]\T1/stix/b/n/10 NodeAffinityPriority: \T1/stix/m/n/10 (+10) This pri-or-ity se-lects
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 88--89
+[]\T1/stix/b/n/10 TaintTolerationPriority: \T1/stix/m/n/10 (+10) This pri-or-ity sets
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
 []\T1/stix/m/n/10 (+10) write about the dif-fer-ences be-tween
  []
 
@@ -1496,7 +1457,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
+ [5]
 Underfull \hbox (badness 3701) in paragraph at lines 33--33
 []\T1/stix/m/n/10 (+10) C. Wöbker, A. Seitz, H. Mueller, and B.
  []
@@ -1506,7 +1467,9 @@ Underfull \hbox (badness 1454) in paragraph at lines 33--33
 []$\T1/cmtt/m/n/10 https : / / ieeexplore . ieee . org /
  []
 
-[5]
+[6
+
+]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 35.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 35.
  (./template.aux)
@@ -1519,18 +1482,18 @@ Package logreq Info: Writing requests to 'template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33350 strings out of 480608
- 627605 string characters out of 5903630
- 1365400 words of memory out of 5000000
- 48539 multiletter control sequences out of 15000+600000
+ 33359 strings out of 480608
+ 628018 string characters out of 5903630
+ 1366521 words of memory out of 5000000
+ 48546 multiletter control sequences out of 15000+600000
  600323 words of font info for 152 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,11n,93p,10103b,1663s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/stix/stix-ts1.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/stix/STIXGeneral-Bold.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/stix/STIXGeneral-Italic.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/stix/STIXGeneral-Regular.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfso1000.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on template.pdf (5 pages, 596034 bytes).
+Output written on template.pdf (6 pages, 599218 bytes).
 PDF statistics:
- 258 PDF objects out of 1000 (max. 8388607)
- 214 compressed objects within 3 object streams
- 53 named destinations out of 1000 (max. 500000)
+ 273 PDF objects out of 1000 (max. 8388607)
+ 228 compressed objects within 3 object streams
+ 55 named destinations out of 1000 (max. 500000)
  19196 words of extra memory for PDF output out of 20736 (max. 10000000)
 

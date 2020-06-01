@@ -2196,23 +2196,25 @@
     <bcf:citekey order="13">Santos2019</bcf:citekey>
     <bcf:citekey order="14">Santos2019</bcf:citekey>
     <bcf:citekey order="15">Santos2019</bcf:citekey>
-    <bcf:citekey order="16">openstack-orchestration</bcf:citekey>
-    <bcf:citekey order="17">Santos2019</bcf:citekey>
+    <bcf:citekey order="16">containerjournal</bcf:citekey>
+    <bcf:citekey order="17">openstackOrchestrator</bcf:citekey>
     <bcf:citekey order="18">Santos2019</bcf:citekey>
     <bcf:citekey order="19">Santos2019</bcf:citekey>
-    <bcf:citekey order="20">k8s</bcf:citekey>
+    <bcf:citekey order="20">Santos2019</bcf:citekey>
     <bcf:citekey order="21">k8s</bcf:citekey>
-    <bcf:citekey order="22">Santos2019</bcf:citekey>
+    <bcf:citekey order="22">k8s</bcf:citekey>
     <bcf:citekey order="23">Santos2019</bcf:citekey>
-    <bcf:citekey order="24">k8s</bcf:citekey>
-    <bcf:citekey order="25">Santos2019</bcf:citekey>
-    <bcf:citekey order="26">k8s</bcf:citekey>
-    <bcf:citekey order="27">Santos2019</bcf:citekey>
+    <bcf:citekey order="24">Santos2019</bcf:citekey>
+    <bcf:citekey order="25">k8s</bcf:citekey>
+    <bcf:citekey order="26">Santos2019</bcf:citekey>
+    <bcf:citekey order="27">k8s</bcf:citekey>
     <bcf:citekey order="28">Santos2019</bcf:citekey>
-    <bcf:citekey order="29">Wobker2018</bcf:citekey>
-    <bcf:citekey order="30">Reale</bcf:citekey>
-    <bcf:citekey order="31">Bittencourt2017</bcf:citekey>
-    <bcf:citekey order="32">Haja2019</bcf:citekey>
+    <bcf:citekey order="29">Santos2019</bcf:citekey>
+    <bcf:citekey order="30">Santos2019</bcf:citekey>
+    <bcf:citekey order="31">Wobker2018</bcf:citekey>
+    <bcf:citekey order="32">Reale</bcf:citekey>
+    <bcf:citekey order="33">Bittencourt2017</bcf:citekey>
+    <bcf:citekey order="34">Haja2019</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="ydnt">
