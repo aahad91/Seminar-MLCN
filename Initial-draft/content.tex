@@ -89,7 +89,7 @@ Using the above mentioned filters(\emph{predicates}), \emph{Kube-Scheduler} retu
   \item \textbf{ImageLocalityPriority:} This priority sets the score for \emph{worker node} based on the availability of the image on \emph{worker node} required to build the containers for \emph{pod}.
   \item \textbf{EqualPriority:} This priority sets the equal weight to all the \emph{worker nodes}.
 \end{enumerate}
-
+The default \emph{Kube-Scheduler} works efficiently for the resources such as CPU, Memory and storage but does not consider the networking resource which is consider critical resource in many use-case scenarios. Considering one application of Fog Computing such as IoT based smart cities which is data sensitive use-case. Ensuring that no data is lost, networking resource need to be configured properly. Default \emph{Kube-Scheduler} does not check the network latency and available bandwidth for \emph{worker node}. In order to cater this drawback, author in \cite{Santos2019} proposed a scheduler thats checks for the network resources along with the dedault \emph{Kube-Scheduler}.
 \section{Kubernetes Network-based Resource Provisioning}
 \label{sec: k8s_ns}
 \begin{itemize}
