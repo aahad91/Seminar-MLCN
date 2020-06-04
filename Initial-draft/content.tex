@@ -32,8 +32,9 @@ Kubernetes act as IaaS for fog computing to provide resource for IoT application
 This section explains about the Kubernetes main components, working as Orchestrator and built-in resource provisioning techniques.
 \subsection{Kubernetes Main Components}
 \label{sec:k8s_main_comp}
+
 \begin{figure}
-  \includegraphics[width=70mm]{figures/mlcn-k8s-components.pdf}
+  \includegraphics[width=68mm]{figures/mlcn-k8s-components.pdf}
   \caption{Kubernetes Cluster: Main Components\cite{Santos2019}}
   \label{fig:k8s-comp}
 \end{figure}
@@ -49,13 +50,13 @@ Orchestrator is responsible for automating the processes that requires alot of h
 \end{itemize}
 There are many Orchestrator currently available, but the most widely used are OpenStack and Kubernetes.
 \begin{enumerate}
-  \item OpenStack Orchestration: It provides template-based orcestration for cloud application to run on OpenStack. Template allows to create resources such as Virtual machines(Instances), Storage (Volumes), Networks etc. These resources are coupled together as OpenStack \emph{Project} to run cloud application\cite{openstackOrchestrator}.
-  \item Kubernetes Orchestration: It is responsible for automating deployment, scaling and management of container-based applications. \emph{master node} orcestrates the application across various \emph{worker node} based on resource availability.
+  \item \textbf{OpenStack Orchestration:} It provides template-based orcestration for cloud application to run on OpenStack. Template allows to create resources such as Virtual machines(Instances), Storage (Volumes), Networks etc. These resources are coupled together as OpenStack \emph{Project} to run cloud application\cite{openstackOrchestrator}.
+  \item \textbf{Kubernetes Orchestration:} It is responsible for automating deployment, scaling and management of container-based applications. \emph{master node} orcestrates the application across various \emph{worker node} based on resource availability.
 \end{enumerate}
 \subsection{Kubernetes Resource Provisioning}
 \label{sec:k8s_scheduler}
 \begin{figure}
-  \includegraphics[width=70mm]{figures/mlcn-k8s-scheduler.pdf}
+  \includegraphics[width=\linewidth]{figures/mlcn-k8s-scheduler.pdf}
   \caption{Kubernetes Scheduler: Working\cite{Santos2019}}
   \label{fig:k8s-sch}
 \end{figure}
@@ -89,15 +90,36 @@ Using the above mentioned filters(\emph{predicates}), \emph{Kube-Scheduler} retu
   \item \textbf{ImageLocalityPriority:} This priority sets the score for \emph{worker node} based on the availability of the image on \emph{worker node} required to build the containers for \emph{pod}.
   \item \textbf{EqualPriority:} This priority sets the equal weight to all the \emph{worker nodes}.
 \end{enumerate}
-The default \emph{Kube-Scheduler} works efficiently for the resources such as CPU, Memory and storage but does not consider the networking resource which is consider critical resource in many use-case scenarios. Considering one application of Fog Computing such as IoT based smart cities which is data sensitive use-case. Ensuring that no data is lost, networking resource need to be configured properly. Default \emph{Kube-Scheduler} does not check the network latency and available bandwidth for \emph{worker node}. In order to cater this drawback, author in \cite{Santos2019} proposed a scheduler thats checks for the network resources along with the dedault \emph{Kube-Scheduler}.
 \section{Kubernetes Network-based Resource Provisioning}
-\label{sec: k8s_ns}
+\label{sec:k8s_ns}
+The default \emph{Kube-Scheduler} works efficiently for the resources such as CPU, Memory and storage but does not consider the networking resource which is consider critical resource in many use-case scenarios. Considering one application of Fog Computing such as IoT based smart cities which is data sensitive use-case. Ensuring that no data is lost, networking resource need to be configured properly\cite{Santos2019}. Default \emph{Kube-Scheduler} does not check the network latency and available bandwidth for \emph{worker node}. In order to cater this drawback, author in \cite{Santos2019} proposed a scheduler thats checks for the network resources along with the dedault \emph{Kube-Scheduler}. \par
+Kubernetes allows three ways to extend the \emph{Kube-Scheduler} to allow the network-based resource provisioning\cite{k8s}.
 \begin{itemize}
-  \item write about why we need network-based resource provisioning
-  \item main factors consideration (e.g bandwidth and latency)
-  \item workflow of network-based scheduler
+  \item Extending \emph{Kube-Scheduler} by adding new \emph{filter/predicates} or \emph{priority/scoring}.
+  \item Build the new scheduler that replaces the default \emph{Kube-Scheduler} or two schedulers work together.
+  \item Define the scheduling process that can be called by the default \emph{Kube-Scheduler} before scheduling the resources.
 \end{itemize}
-
+\begin{figure}
+  \includegraphics[width=75mm]{figures/mlcn-fog-k8s-infra.pdf}
+  \caption{Kubernetes-based Fog Computing Infrastructure\cite{Santos2019}}
+  \label{fig:fog-k8s-infra}
+\end{figure}
+As per \cite{Santos2019}, author used the third approach that allows the default \emph{Kube-Scheduler} to apply \emph{filters} and calculate \emph{priority} of the \emph{worker nodes} afterwards the external scheduling process function is called. When the scheduling process is called, two function calls are generated\cite{Santos2019}, first one for the list of \emph{worker nodes} as the result of \emph{filtering/predicates} of \emph{Kube-Scheduler}\cite{Santos2019}. Second for the list of \emph{worker nodes} after calculating the \emph{priority} using \emph{Kube-Scheduler}\cite{Santos2019}. For Kubernetes to work as Fog Computing infrastructure, "affinity/anit-affinity" rules and node labeling is used as shown figure \ref{fig:fog-k8s-infra}. The infrastructure consists of 1 \emph{master node} and 14 \emph{worker nodes}. All nodes are labeled with \{\emph{Min, High, Medium}\} for resources such as \{\emph{CPU, Memory}\}\cite{Santos2019}. These nodes are further labeled by \{\emph{DeviceType}\} based on their their functionality and geographical positioning by \emph{tains} such as \{\emph{Cloud, Fog}\}\cite{Santos2019}. These rules and node labeling will help in efficient deployment of \emph{pods} on certain \emph{worker nodes}. Considering the delay-sensitive application scenario, data collecting node which is near to data processing node is taken into account due to time dependency\cite{Santos2019}. For improving \emph{pod} deployment based on above scenario, all \emph{worker nodes} are further labeled for Round Trip Time(RTT) from the \emph{master node} as shown in figure\ref{fig:k8s-rtt}.\par
+\begin{figure}
+  \includegraphics[width=\linewidth]{figures/mlcn-k8s-rtt.pdf}
+  \caption{Location-based RTT values of \emph{nodes} in Fog Computing Infrastructure\cite{Santos2019}}
+  \label{fig:k8s-rtt}
+\end{figure}
+The external scheduling process further calls two schedulers and these schedulers will filter out \emph{worker  nodes} based on networking resources.
+\begin{enumerate}
+  \item \textbf{Random Scheduler:} This scheduler will get the  input as list of \emph{worker nodes} from \emph{Kibe-Scheduler} after applying \emph{filters/predicates} and output will be the random picked \emph{worker node} from the input list.
+  \item \textbf{Network-Aware Scheduler:} This scheduler is based on algorithm as shown in figure\ref{fig:k8s-ns-algo}. Based on the algorithm, input will be list of \emph{worker node} from \emph{Kube-Scheduler} after applying \emph{filters/predicates}. After getting the deploy location from \emph{pod} configration file, this scheduler will make use of RTT labels to pick the best-fit \emph{worker node} having minimum RTT value\cite{Santos2019}. Apart from RTT based selection, this scheduler also look for the bandwidth label and check the \emph{pod} configration file for bandwidth requirement. If no bandwidth requirement is specfied then the scheduler consider 250KBit/s by default and returns the \emph{worker node} having minimum RTT and more bandwidth\cite{Santos2019}. 
+\end{enumerate}
+\begin{figure}
+  \includegraphics[width=\linewidth]{figures/mlcn-k8s-ns-algo.pdf}
+  \caption{Network-Aware scheduling Algorithm\cite{Santos2019}}
+  \label{fig:k8s-ns-algo}
+\end{figure}
 \section{Performance Evaluation}
 \label{sec:Performance_eval}
 \begin{itemize}
