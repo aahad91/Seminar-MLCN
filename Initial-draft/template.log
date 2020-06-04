@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.16)  4 JUN 2020 03:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.16)  4 JUN 2020 22:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -995,7 +995,11 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 LaTeX Warning: Unused global option(s):
     [openright].
 
-(./template.aux)
+(./template.aux
+
+LaTeX Warning: Label `fig:k8s-sch-config' multiply defined.
+
+)
 \openout1 = `template.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -1314,7 +1318,7 @@ pdfTeX warning: pdflatex (file ./figures/mlcn-fog-1.pdf): PDF inclusion: found P
 <figures/mlcn-fog-1.pdf, id=34, 626.34pt x 374.90062pt>
 File: figures/mlcn-fog-1.pdf Graphic file (type pdf)
 <use figures/mlcn-fog-1.pdf>
-Package pdftex.def Info: figures/mlcn-fog-1.pdf  used on input line 24.
+Package pdftex.def Info: figures/mlcn-fog-1.pdf  used on input line 25.
 (pdftex.def)             Requested size: 199.16928pt x 119.21553pt.
 [1{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -1327,57 +1331,57 @@ pdfTeX warning: pdflatex (file ./figures/mlcn-k8s-components.pdf): PDF inclusion
 <figures/mlcn-k8s-components.pdf, id=51, 513.41812pt x 715.17188pt>
 File: figures/mlcn-k8s-components.pdf Graphic file (type pdf)
 <use figures/mlcn-k8s-components.pdf>
-Package pdftex.def Info: figures/mlcn-k8s-components.pdf  used on input line 37.
+Package pdftex.def Info: figures/mlcn-k8s-components.pdf  used on input line 39.
 (pdftex.def)             Requested size: 193.47873pt x 269.50922pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
 \T1/stix/m/n/10 (+10) Kubernetes is an open-source project that
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
 \T1/stix/m/n/10 (+10) man-ages the container-based ap-pli-ca-tions de-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
 \T1/stix/m/n/10 (+10) ployed over mul-ti-ple hosts. Ku-ber-netes act
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
 \T1/stix/m/n/10 (+10) as Or-ches-tra-tor which is re-spon-si-ble for de-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
 \T1/stix/m/n/10 (+10) ploy-ing, man-ag-ing, scal-ing of container-based
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
 \T1/stix/m/n/10 (+10) application[[]]. Fig-ure []2[]
  []
 
 
-Underfull \hbox (badness 1852) in paragraph at lines 41--42
+Underfull \hbox (badness 1852) in paragraph at lines 43--44
 \T1/stix/m/it/10 (+10) worker nodes \T1/stix/m/n/10 (+10) [[]6[]]. \T1/stix/m/it/10 (+10) worker nodes \T1/stix/m/n/10 (+10) can be ei-ther
  []
 
 
-Underfull \hbox (badness 3375) in paragraph at lines 41--42
+Underfull \hbox (badness 3375) in paragraph at lines 43--44
 \T1/stix/m/it/10 (+10) Man-ager \T1/stix/m/n/10 (+10) for-ward the new state re-quest us-ing
  []
 
 
-Underfull \hbox (badness 1867) in paragraph at lines 41--42
+Underfull \hbox (badness 1867) in paragraph at lines 43--44
 \T1/stix/m/n/10 (+10) there is no cross com-mu-ni-ca-tion be-tween two
  []
 
 LaTeX Font Info:    Font shape `T1/stix/m/sl' in size <10> not available
-(Font)              Font shape `T1/stix/m/it' tried instead on input line 42.
+(Font)              Font shape `T1/stix/m/it' tried instead on input line 44.
 [2 <./figures/mlcn-k8s-components.pdf>]
-LaTeX Font Info:    Trying to load font information for TS1+stix on input line 46.
+LaTeX Font Info:    Trying to load font information for TS1+stix on input line 48.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/stix/ts1stix.fd
 File: ts1stix.fd 2015/04/17 v1.1.2-latex STIX TS1 font definitions
 )
@@ -1386,27 +1390,27 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 []\T1/stix/b/n/10 OpenStack Or-ches-tra-tion: \T1/stix/m/n/10 (+10) It pro-vides
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 \T1/stix/m/n/10 (+10) template-based or-ces-tra-tion for cloud ap-
  []
 
 
-Underfull \hbox (badness 2735) in paragraph at lines 53--54
+Underfull \hbox (badness 2735) in paragraph at lines 55--56
 \T1/stix/m/n/10 (+10) pli-ca-tion to run on Open-Stack. Tem-plate
  []
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 53--54
+Underfull \hbox (badness 1472) in paragraph at lines 55--56
 \T1/stix/m/n/10 (+10) al-lows to cre-ate re-sources such as Vir-tual
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 \T1/stix/m/n/10 (+10) ma-chines(Instances), Stor-age (Vol-umes),
  []
 
@@ -1416,10 +1420,10 @@ pdfTeX warning: pdflatex (file ./figures/mlcn-k8s-scheduler.pdf): PDF inclusion:
 <figures/mlcn-k8s-scheduler.pdf, id=74, 594.585pt x 641.66998pt>
 File: figures/mlcn-k8s-scheduler.pdf Graphic file (type pdf)
 <use figures/mlcn-k8s-scheduler.pdf>
-Package pdftex.def Info: figures/mlcn-k8s-scheduler.pdf  used on input line 59.
+Package pdftex.def Info: figures/mlcn-k8s-scheduler.pdf  used on input line 62.
 (pdftex.def)             Requested size: 204.12683pt x 220.28957pt.
 
-Underfull \hbox (badness 2818) in paragraph at lines 68--69
+Underfull \hbox (badness 2818) in paragraph at lines 71--72
 []\T1/stix/b/n/10 PodFitsHostPorts: \T1/stix/m/n/10 (+10) This fil-ters checks the
  []
 
@@ -1430,56 +1434,51 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [3 <./figures/mlcn-k8s-scheduler.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 []\T1/stix/b/n/10 CheckNodeMemoryPressure: \T1/stix/m/n/10 (+10) This fil-ter
  []
 
 
-Underfull \hbox (badness 1540) in paragraph at lines 75--76
+Underfull \hbox (badness 1540) in paragraph at lines 78--79
 \T1/stix/m/n/10 (+10) user to de-ploy the \T1/stix/m/it/10 (+10) pod \T1/stix/m/n/10 (+10) on specfic \T1/stix/m/it/10 (+10) worker
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
 \T1/stix/m/it/10 (+10) Kube-Scheduler \T1/stix/m/n/10 (+10) as-sign rank to each \T1/stix/m/it/10 (+10) worker
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 84--85
+Underfull \hbox (badness 1237) in paragraph at lines 87--88
 []\T1/stix/b/n/10 LeastRequestedPriority: \T1/stix/m/n/10 (+10) This pri-or-ity sets
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 []\T1/stix/b/n/10 RequestedToCapacityRatioPriority: \T1/stix/m/n/10 (+10) This
  []
 
 
-Underfull \hbox (badness 1789) in paragraph at lines 88--89
+Underfull \hbox (badness 1789) in paragraph at lines 91--92
 []\T1/stix/b/n/10 NodeAffinityPriority: \T1/stix/m/n/10 (+10) This pri-or-ity se-lects
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 89--90
+Underfull \hbox (badness 1377) in paragraph at lines 92--93
 []\T1/stix/b/n/10 TaintTolerationPriority: \T1/stix/m/n/10 (+10) This pri-or-ity sets
- []
-
-[4]
-Underfull \hbox (badness 1286) in paragraph at lines 100--101
-[]\T1/stix/m/n/10 (+10) Define the schedul-ing pro-cess that can be
  []
 
 
 
 pdfTeX warning: pdflatex (file ./figures/mlcn-fog-k8s-infra.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/mlcn-fog-k8s-infra.pdf, id=132, 807.13428pt x 596.76418pt>
+<figures/mlcn-fog-k8s-infra.pdf, id=106, 807.13428pt x 596.76418pt>
 File: figures/mlcn-fog-k8s-infra.pdf Graphic file (type pdf)
 <use figures/mlcn-fog-k8s-infra.pdf>
-Package pdftex.def Info: figures/mlcn-fog-k8s-infra.pdf  used on input line 103.
-(pdftex.def)             Requested size: 213.39566pt x 157.77751pt.
-
-Overfull \hbox (9.26883pt too wide) in paragraph at lines 103--104
-[][] 
+Package pdftex.def Info: figures/mlcn-fog-k8s-infra.pdf  used on input line 98.
+(pdftex.def)             Requested size: 227.62204pt x 168.2948pt.
+[4]
+Underfull \hbox (badness 1286) in paragraph at lines 109--110
+[]\T1/stix/m/n/10 (+10) Define the schedul-ing pro-cess that can be
  []
 
 
@@ -1488,21 +1487,58 @@ pdfTeX warning: pdflatex (file ./figures/mlcn-k8s-rtt.pdf): PDF inclusion: found
 <figures/mlcn-k8s-rtt.pdf, id=144, 841.22282pt x 563.70598pt>
 File: figures/mlcn-k8s-rtt.pdf Graphic file (type pdf)
 <use figures/mlcn-k8s-rtt.pdf>
-Package pdftex.def Info: figures/mlcn-k8s-rtt.pdf  used on input line 109.
+Package pdftex.def Info: figures/mlcn-k8s-rtt.pdf  used on input line 115.
 (pdftex.def)             Requested size: 204.12683pt x 136.78024pt.
-[5 <./figures/mlcn-fog-k8s-infra.pdf> <./figures/mlcn-k8s-rtt.pdf>]
+
 
 pdfTeX warning: pdflatex (file ./figures/mlcn-k8s-ns-algo.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/mlcn-k8s-ns-algo.pdf, id=165, 521.72057pt x 846.59145pt>
+<figures/mlcn-k8s-ns-algo.pdf, id=147, 521.72057pt x 846.59145pt>
 File: figures/mlcn-k8s-ns-algo.pdf Graphic file (type pdf)
 <use figures/mlcn-k8s-ns-algo.pdf>
-Package pdftex.def Info: figures/mlcn-k8s-ns-algo.pdf  used on input line 119.
+Package pdftex.def Info: figures/mlcn-k8s-ns-algo.pdf  used on input line 121.
 (pdftex.def)             Requested size: 204.12683pt x 331.2286pt.
+[5 <./figures/mlcn-fog-k8s-infra.pdf>]
 
+pdfTeX warning: pdflatex (file ./figures/mlcn-k8s-pod-config.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/mlcn-k8s-pod-config.pdf, id=165, 351.47705pt x 843.5449pt>
+File: figures/mlcn-k8s-pod-config.pdf Graphic file (type pdf)
+<use figures/mlcn-k8s-pod-config.pdf>
+Package pdftex.def Info: figures/mlcn-k8s-pod-config.pdf  used on input line 133.
+(pdftex.def)             Requested size: 213.39778pt x 569.0722pt.
+
+Overfull \hbox (9.27095pt too wide) in paragraph at lines 133--134
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 3.14204pt on input line 136.
+
+
+Underfull \hbox (badness 1888) in paragraph at lines 140--140
+\T1/stix/m/n/10 (+10) "ex-ten-der" per-forms the network-ware re-source
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./figures/mlcn-k8s-scheduler-config.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/mlcn-k8s-scheduler-config.pdf, id=177, 464.68935pt x 844.27573pt>
+File: figures/mlcn-k8s-scheduler-config.pdf Graphic file (type pdf)
+<use figures/mlcn-k8s-scheduler-config.pdf>
+Package pdftex.def Info: figures/mlcn-k8s-scheduler-config.pdf  used on input line 143.
+(pdftex.def)             Requested size: 204.1236pt x 227.62254pt.
+
+
+pdfTeX warning: pdflatex (file ./figures/mlcn-k8s-service-pods.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/mlcn-k8s-service-pods.pdf, id=180, 846.91406pt x 141.15234pt>
+File: figures/mlcn-k8s-service-pods.pdf Graphic file (type pdf)
+<use figures/mlcn-k8s-service-pods.pdf>
+Package pdftex.def Info: figures/mlcn-k8s-service-pods.pdf  used on input line 148.
+(pdftex.def)             Requested size: 418.25368pt x 69.708pt.
+[6 <./figures/mlcn-k8s-rtt.pdf> <./figures/mlcn-k8s-ns-algo.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
+ [7 <./figures/mlcn-k8s-pod-config.pdf> <./figures/mlcn-k8s-scheduler-config.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
 []\T1/stix/m/n/10 (+10) write about the dif-fer-ences be-tween
  []
 
@@ -1515,7 +1551,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [6 <./figures/mlcn-k8s-ns-algo.pdf>]
+
 Underfull \hbox (badness 3701) in paragraph at lines 33--33
 []\T1/stix/m/n/10 (+10) C. Wöbker, A. Seitz, H. Mueller, and B.
  []
@@ -1525,7 +1561,7 @@ Underfull \hbox (badness 1454) in paragraph at lines 33--33
 []$\T1/cmtt/m/n/10 https : / / ieeexplore . ieee . org /
  []
 
-[7
+[8 <./figures/mlcn-k8s-service-pods.pdf>] [9
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 35.
@@ -1535,23 +1571,27 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 35.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 35.
 Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'template.run.xml'.
 \openout1 = `template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33394 strings out of 480608
- 628877 string characters out of 5903630
- 1366774 words of memory out of 5000000
- 48564 multiletter control sequences out of 15000+600000
+ 33419 strings out of 480608
+ 629664 string characters out of 5903630
+ 1366946 words of memory out of 5000000
+ 48581 multiletter control sequences out of 15000+600000
  601121 words of font info for 156 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,11n,93p,10103b,1663s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 76i,11n,93p,10103b,1665s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/stix/stix-ts1.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/stix/STIXGeneral-Bold.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/stix/STIXGeneral-Italic.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/stix/STIXGeneral-Regular.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfso1000.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on template.pdf (7 pages, 1156781 bytes).
+Output written on template.pdf (9 pages, 1557391 bytes).
 PDF statistics:
- 318 PDF objects out of 1000 (max. 8388607)
- 263 compressed objects within 3 object streams
- 61 named destinations out of 1000 (max. 500000)
- 19211 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 362 PDF objects out of 1000 (max. 8388607)
+ 296 compressed objects within 3 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 19226 words of extra memory for PDF output out of 20736 (max. 10000000)
 

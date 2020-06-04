@@ -406,6 +406,15 @@ INPUT ./figures/mlcn-k8s-rtt.pdf
 INPUT figures/mlcn-k8s-ns-algo.pdf
 INPUT ./figures/mlcn-k8s-ns-algo.pdf
 INPUT ./figures/mlcn-k8s-ns-algo.pdf
+INPUT figures/mlcn-k8s-pod-config.pdf
+INPUT ./figures/mlcn-k8s-pod-config.pdf
+INPUT ./figures/mlcn-k8s-pod-config.pdf
+INPUT figures/mlcn-k8s-scheduler-config.pdf
+INPUT ./figures/mlcn-k8s-scheduler-config.pdf
+INPUT ./figures/mlcn-k8s-scheduler-config.pdf
+INPUT figures/mlcn-k8s-service-pods.pdf
+INPUT ./figures/mlcn-k8s-service-pods.pdf
+INPUT ./figures/mlcn-k8s-service-pods.pdf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/stix/t1-stixgeneralsc.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/stix/t1-stixgeneralsc.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/t1cmtt.fd

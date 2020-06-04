@@ -21,6 +21,7 @@
 In recent years with the evolution of technology, Internet of Things (IoT) devices are increasing day by day. According to Ericsson mobility report\cite{}, there will be 17\% (approx. 22.3 billion) increase in IoT devices by 2024. Functionally IoT is defined as \emph{"The Internet of Things allows people and things to be connected Anytime, Anyplace, with Anything and Anyone"} \cite{European commission 2008}. IoT devices have served mankind in many ways such as from smart houses to smart cities, smart transportation systems and many medical applications. These IoT applications enables many devices connected to network and generates alot of heterogeneous data also known as BigData which requires special data processing models and Infrastructure support. Processing BigData required alot of resources and cloud computing theoratically provides it unlimited resources\cite{fog-comp-survey}. But there is downside of using cloud computing for such complex computation as it is more costly when it comes to computation power, storage and bandwidth. Computation need to be performed at the node level and only the aggregated data need to send to central node for further computations and analysis. This de-centralized approach will save alot of computation power as well as bandwidth requriments\cite{fog-comp-survey}. To overcome the downside of cloud computing, the terminology fog computing is used. Fog computing allows the computation at the egde of network instead of central core. \par
 Fog computing is defined as \emph{"an archietecture that uses one or a collaborative multitude of end-user clients or near-user edge devices to carry out a substantial amount of storage (rather than stored primarily in cloud data centers), communication (rather than routed over the internet backbone), and control, configuration, measurement and management (rather than controlled primarily by network gateways such as those in the LTE (telecommunication) core)”}\cite{Chiang 2015; Aazam and Huh 2014}. Traditionally, user applications running in cloud access the cloud core network through access points for data exchange to fetch data from data-centers \cite{Bittencourt2017}. In fog computing these access points also serves as resource providers such as computation power and storage etc. and are called "cloudlets"\cite{Bittencourt2017}. Figure \ref{fig:fog-arch} show the top-level archietecture of the fog computing. \par
 \begin{figure}
+  \centering
   \includegraphics[width=70mm]{figures/mlcn-fog-1.pdf}
   \caption{Fog computing: Top-level overview\cite{Bittencourt2017}}
   \label{fig:fog-arch}
@@ -34,6 +35,7 @@ This section explains about the Kubernetes main components, working as Orchestra
 \label{sec:k8s_main_comp}
 
 \begin{figure}
+  \centering
   \includegraphics[width=68mm]{figures/mlcn-k8s-components.pdf}
   \caption{Kubernetes Cluster: Main Components\cite{Santos2019}}
   \label{fig:k8s-comp}
@@ -56,6 +58,7 @@ There are many Orchestrator currently available, but the most widely used are Op
 \subsection{Kubernetes Resource Provisioning}
 \label{sec:k8s_scheduler}
 \begin{figure}
+  \centering
   \includegraphics[width=\linewidth]{figures/mlcn-k8s-scheduler.pdf}
   \caption{Kubernetes Scheduler: Working\cite{Santos2019}}
   \label{fig:k8s-sch}
@@ -90,6 +93,12 @@ Using the above mentioned filters(\emph{predicates}), \emph{Kube-Scheduler} retu
   \item \textbf{ImageLocalityPriority:} This priority sets the score for \emph{worker node} based on the availability of the image on \emph{worker node} required to build the containers for \emph{pod}.
   \item \textbf{EqualPriority:} This priority sets the equal weight to all the \emph{worker nodes}.
 \end{enumerate}
+\begin{figure*}
+  \centering
+  \includegraphics[width=80mm]{figures/mlcn-fog-k8s-infra.pdf}
+  \caption{Kubernetes-based Fog Computing Infrastructure\cite{Santos2019}}
+  \label{fig:fog-k8s-infra}
+\end{figure*}
 \section{Kubernetes Network-based Resource Provisioning}
 \label{sec:k8s_ns}
 The default \emph{Kube-Scheduler} works efficiently for the resources such as CPU, Memory and storage but does not consider the networking resource which is consider critical resource in many use-case scenarios. Considering one application of Fog Computing such as IoT based smart cities which is data sensitive use-case. Ensuring that no data is lost, networking resource need to be configured properly\cite{Santos2019}. Default \emph{Kube-Scheduler} does not check the network latency and available bandwidth for \emph{worker node}. In order to cater this drawback, author in \cite{Santos2019} proposed a scheduler thats checks for the network resources along with the dedault \emph{Kube-Scheduler}. \par
@@ -99,38 +108,48 @@ Kubernetes allows three ways to extend the \emph{Kube-Scheduler} to allow the ne
   \item Build the new scheduler that replaces the default \emph{Kube-Scheduler} or two schedulers work together.
   \item Define the scheduling process that can be called by the default \emph{Kube-Scheduler} before scheduling the resources.
 \end{itemize}
-\begin{figure}
-  \includegraphics[width=75mm]{figures/mlcn-fog-k8s-infra.pdf}
-  \caption{Kubernetes-based Fog Computing Infrastructure\cite{Santos2019}}
-  \label{fig:fog-k8s-infra}
-\end{figure}
 As per \cite{Santos2019}, author used the third approach that allows the default \emph{Kube-Scheduler} to apply \emph{filters} and calculate \emph{priority} of the \emph{worker nodes} afterwards the external scheduling process function is called. When the scheduling process is called, two function calls are generated\cite{Santos2019}, first one for the list of \emph{worker nodes} as the result of \emph{filtering/predicates} of \emph{Kube-Scheduler}\cite{Santos2019}. Second for the list of \emph{worker nodes} after calculating the \emph{priority} using \emph{Kube-Scheduler}\cite{Santos2019}. For Kubernetes to work as Fog Computing infrastructure, "affinity/anit-affinity" rules and node labeling is used as shown figure \ref{fig:fog-k8s-infra}. The infrastructure consists of 1 \emph{master node} and 14 \emph{worker nodes}. All nodes are labeled with \{\emph{Min, High, Medium}\} for resources such as \{\emph{CPU, Memory}\}\cite{Santos2019}. These nodes are further labeled by \{\emph{DeviceType}\} based on their their functionality and geographical positioning by \emph{tains} such as \{\emph{Cloud, Fog}\}\cite{Santos2019}. These rules and node labeling will help in efficient deployment of \emph{pods} on certain \emph{worker nodes}. Considering the delay-sensitive application scenario, data collecting node which is near to data processing node is taken into account due to time dependency\cite{Santos2019}. For improving \emph{pod} deployment based on above scenario, all \emph{worker nodes} are further labeled for Round Trip Time(RTT) from the \emph{master node} as shown in figure\ref{fig:k8s-rtt}.\par
+The external scheduling process further calls two schedulers and these schedulers will filter out \emph{worker  nodes} based on networking resources.
 \begin{figure}
+  \centering
   \includegraphics[width=\linewidth]{figures/mlcn-k8s-rtt.pdf}
   \caption{Location-based RTT values of \emph{nodes} in Fog Computing Infrastructure\cite{Santos2019}}
   \label{fig:k8s-rtt}
 \end{figure}
-The external scheduling process further calls two schedulers and these schedulers will filter out \emph{worker  nodes} based on networking resources.
-\begin{enumerate}
-  \item \textbf{Random Scheduler:} This scheduler will get the  input as list of \emph{worker nodes} from \emph{Kibe-Scheduler} after applying \emph{filters/predicates} and output will be the random picked \emph{worker node} from the input list.
-  \item \textbf{Network-Aware Scheduler:} This scheduler is based on algorithm as shown in figure\ref{fig:k8s-ns-algo}. Based on the algorithm, input will be list of \emph{worker node} from \emph{Kube-Scheduler} after applying \emph{filters/predicates}. After getting the deploy location from \emph{pod} configration file, this scheduler will make use of RTT labels to pick the best-fit \emph{worker node} having minimum RTT value\cite{Santos2019}. Apart from RTT based selection, this scheduler also look for the bandwidth label and check the \emph{pod} configration file for bandwidth requirement. If no bandwidth requirement is specfied then the scheduler consider 250KBit/s by default and returns the \emph{worker node} having minimum RTT and more bandwidth\cite{Santos2019}. 
-\end{enumerate}
 \begin{figure}
+  \centering
   \includegraphics[width=\linewidth]{figures/mlcn-k8s-ns-algo.pdf}
   \caption{Network-Aware scheduling Algorithm\cite{Santos2019}}
   \label{fig:k8s-ns-algo}
 \end{figure}
+\begin{enumerate}
+  \item \textbf{Random Scheduler:} This scheduler will get the  input as list of \emph{worker nodes} from \emph{Kibe-Scheduler} after applying \emph{filters/predicates} and output will be the random picked \emph{worker node} from the input list.
+  \item \textbf{Network-Aware Scheduler:} This scheduler is based on algorithm as shown in figure\ref{fig:k8s-ns-algo}. Based on the algorithm, input will be list of \emph{worker node} from \emph{Kube-Scheduler} after applying \emph{filters/predicates}. After getting the deploy location from \emph{pod} configration file, this scheduler will make use of RTT labels to pick the best-fit \emph{worker node} having minimum RTT value\cite{Santos2019}. Apart from RTT based selection, this scheduler also look for the bandwidth label and check the \emph{pod} configration file for bandwidth requirement. If no bandwidth requirement is specfied then the scheduler consider 250KBit/s by default and returns the \emph{worker node} having minimum RTT and more bandwidth\cite{Santos2019}.
+\end{enumerate}
 \section{Performance Evaluation}
 \label{sec:Performance_eval}
-\begin{itemize}
-  \item Write about the considered use-case of Fog Computing for Evaluation
-\end{itemize}
+\begin{figure}
+  \centering
+  \includegraphics[width=75mm, height=20cm]{figures/mlcn-k8s-pod-config.pdf}
+  \caption{\emph{Pod} Configuration for Scheduler\cite{Santos2019}}
+  \label{fig:k8s-pod-config}
+\end{figure}
+In order to test the network-based resource provisioning for Fog Computing, Smart city scenario was considered \cite{Santos2019}. This scenario collects the air quality data of Antwerp city for organic compounds in the atmosphere \cite{Santos2019}.
 \subsection{Expermentation Setup}
 \label{sec:setup}
-\begin{itemize}
-  \item setup of Kubernetes base on the mentioned use-case of Fog Computing with diagram
-\end{itemize}
-
+This smart city scenario was tested using the infrastructure as shown in figure\ref{fig:fog-k8s-infra}. This infrastructure was setup at IDLab,Belgium\cite{Santos2019}. The proposed network-based resource provisioning/network-aware scheduler was developed using Go and used as \emph{pod} in Kubernetes cluster\cite{Santos2019}. Figure\ref{fig:k8s-pod-config} shows the \emph{pod} configration that consists of two containers, first container "extender" performs the network-ware resource scheduling operations whereas second container "network-aware-scheduler" is the \emph{Kube-Scheduler} itself\cite{Santos2019}. Configuration can be seen in figure\ref{fig:k8s-sch-config}, where it can be seen that first \emph{Kube-scheduler} operations are performed afterward "extender" is called that performs the network-aware scheduling based on algorithm as shown in figure\ref{fig:k8s-ns-algo}. \par
+\begin{figure}
+  \centering
+  \includegraphics[width=\linewidth, height=8cm]{figures/mlcn-k8s-scheduler-config.pdf}
+  \caption{\emph{Kube-Scheduler} Configuration\cite{Santos2019}}
+  \label{fig:k8s-sch-config}
+\end{figure}
+\begin{figure*}
+  \includegraphics[width=\linewidth]{figures/mlcn-k8s-service-pods.pdf}
+  \caption{Smart city deployed services\cite{Santos2019}}
+  \label{fig:k8s-sch-config}
+\end{figure*}
+In smart city scenario, many services were deployed as shown in figure\ref{fig:k8s-sch-config}.All the services are deployed either single or double \emph{pods}. Figure\ref{fig:k8s-sch-config} shows all the defined paramerters in configuration file against each \emph{pod}. The data collection of air quality was done through algorithm and implemented as container which is deployed as \emph{pod} namely "birch-api"\cite{Santos2019}. The \emph{pod} configuration of "birch-api" is similar to one shown in figure\ref{fig:k8s-pod-config}. Each \emph{pod} of the service  had some added parameters in \emph{pod} configration file such as "\emph{targetLocation}" that will define the deploy location in Fog Infrastructure as shown in figure\ref{fig:fog-k8s-infra}. Another parameter "\emph{bandwidthReq}" define the minimum required bandwidth for \emph{pod} deployment. Furthermore in \emph{pod} configuration file, \emph{affinity} parameter was set to \emph{podAntiAffinity} which limits the \emph{pods} of same service deploying on same \emph{worker node}\cite{Santos2019}.
 \subsection{Analysis of Kubernetes Default and Network-based Resource Provisioning}
 \label{sec:analysis}
 \begin{itemize}
@@ -142,7 +161,7 @@ The external scheduling process further calls two schedulers and these scheduler
 \begin{itemize}
   \item Compare different solutions based on the following criteria:
 \end{itemize}
-
+Collection of air quality data in
 \subsection{Orchestrator}
 \label{sec:infra}
 \begin{itemize}
