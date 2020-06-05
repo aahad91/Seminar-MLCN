@@ -149,19 +149,33 @@ This smart city scenario was tested using the infrastructure as shown in figure\
   \caption{Smart city deployed services\cite{Santos2019}}
   \label{fig:k8s-sch-config}
 \end{figure*}
-In smart city scenario, many services were deployed as shown in figure\ref{fig:k8s-sch-config}.All the services are deployed either single or double \emph{pods}. Figure\ref{fig:k8s-sch-config} shows all the defined paramerters in configuration file against each \emph{pod}. The data collection of air quality was done through algorithm and implemented as container which is deployed as \emph{pod} namely "birch-api"\cite{Santos2019}. The \emph{pod} configuration of "birch-api" is similar to one shown in figure\ref{fig:k8s-pod-config}. Each \emph{pod} of the service  had some added parameters in \emph{pod} configration file such as "\emph{targetLocation}" that will define the deploy location in Fog Infrastructure as shown in figure\ref{fig:fog-k8s-infra}. Another parameter "\emph{bandwidthReq}" define the minimum required bandwidth for \emph{pod} deployment. Furthermore in \emph{pod} configuration file, \emph{affinity} parameter was set to \emph{podAntiAffinity} which limits the \emph{pods} of same service deploying on same \emph{worker node}\cite{Santos2019}.
+In smart city scenario, many services were deployed as shown in figure\ref{fig:k8s-sch-config}.All the services were deployed either single or multiple \emph{pods}. Figure\ref{fig:k8s-sch-config} shows all the defined paramerters in configuration file against each \emph{pod}. The data collection of air quality was done through algorithm and implemented as container which is deployed as \emph{pod} namely "birch-api"\cite{Santos2019}. The \emph{pod} configuration of "birch-api" is similar to one shown in figure\ref{fig:k8s-pod-config}. Each \emph{pod} of the service  had some additional parameters in \emph{pod} configration file such as "\emph{targetLocation}" that will define the deploy location in Fog Infrastructure as shown in figure\ref{fig:fog-k8s-infra}. Another parameter "\emph{bandwidthReq}" that defines the minimum required bandwidth for \emph{pod} deployment. Furthermore in \emph{pod} configuration file, \emph{affinity} parameter was set to \emph{podAntiAffinity} which limits the \emph{pods} of same service deploying on same \emph{worker node}\cite{Santos2019}.
+\begin{figure}
+  \centering
+  \includegraphics[width=\linewidth]{figures/mlcn-k8s-service-prov.pdf}
+  \caption{Service deployment using different scheduling techniques\cite{Santos2019}}
+  \label{fig:k8s-service}
+\end{figure}
+\begin{figure}
+  \centering
+  \includegraphics[width=\linewidth]{figures/mlcn-k8s-exec-time.pdf}
+  \caption{Processing time of different scheduling techniques\cite{Santos2019}}
+  \label{fig:k8s-exec-t}
+\end{figure}
+\begin{figure}
+  \centering
+  \includegraphics[width=\linewidth]{figures/mlcn-k8s-scheduler-compare.pdf}
+  \caption{Average RTT of service deployment using different scheduling techniques\cite{Santos2019}}
+  \label{fig:k8s-comapre-sc}
+\end{figure}
 \subsection{Analysis of Kubernetes Default and Network-based Resource Provisioning}
 \label{sec:analysis}
-\begin{itemize}
-  \item write about the Performance difference between default Kubernetes scheduler and network based scheduler with supporting result tables and graphs
-\end{itemize}
-
+In order to check the Performance of network-based resource provisioning scheduler, services in figure\ref{fig:k8s-sch-config} where deployed using default \emph{Kube-Scheduler(KS)}, Random Scheduler(RS) and Network-Aware Scheduler(NAS) as shown in figure\ref{fig:k8s-service}. It can be seen in figure\ref{fig:k8s-service} that both \emph{Kube-Scheduler} and Random Scheduler performs poorly by not taking the deploy location factor into account this leads to increased network latency\cite{Santos2019}. Taking an example of "\emph{Isolation-api}", whose desired deploying position was Location D, whereas it was not deployed properly by both \emph{Kube-Scheduler} and Random Scheduler\cite{Santos2019}. Figure\ref{fig:k8s-exec-t} shows the processing time of different schedulers for deploying \emph{pods}. \emph{Kube-Scheduler} on average takes 2.14ms for taking scheduling decisions and in case of Random Scheduler and Network-aware Scheduler takes around 7.71ms and 6.44ms respectively\cite{Santos2019}. This added delay is due to external process call as discussed in section\ref{sec:k8s_ns}. After scheduling decision, for resource provisioning and starting \emph{pod} containers on \emph{worker node} time taken by \emph{Kube-Scheduler} and Network-Aware Scheduler was average 2 seconds whereas for Random schedulers it was 3 seconds\cite{Santos2019}. Further figure\ref{fig:k8s-service} shows that using \emph{Kube-Scheduler} and Random Scheduler overloads the \emph{worker node} interms of bandwidth requirement as defined bandwidth per \emph{worker node} is 10Mbit/s\cite{Santos2019}. For example \emph{Kube-Scheduler} deploys 4 \emph{pods} on \emph{worker node}1 and 4 exceeding the bandwidth of \emph{worker nodes} this leads to service interuption due to bandwidth\cite{Santos2019}. This issue was resolved when using Network-Aware Scheduler as it allows add minimum bandwidth requirement using "\emph{bandwidthReq}" in \emph{pod} configration file. Figure\ref{fig:k8s-comapre-sc} shows the average RTT taken by different schedulers for \emph{pod} deployments. It shows thats Network-based resource scheduling/Network-Aware Scheduler outstands the \emph{Kube-Scheduler} and Random Scheduler by having very less RTT for each \emph{pod} deployment\cite{Santos2019}. For instance, average RTT for "\emph{Isolation-api}" is 4ms when deployed using Network-Aware Scheduler and its very high for \emph{Kube-Scheduler} and Random Scheduler that is 39ms and 34ms respectively\cite{Santos2019}. Results show that by adding few miliseconds for Network-Aware scheduling performance can be improved for service deployment interm of network latency compare to \emph{Kube-Scheduler}\cite{Santos2019}.
 \section{Comparison of Network-based Resource Provisioning Solutions}
 \label{sec:related_work}
 \begin{itemize}
   \item Compare different solutions based on the following criteria:
 \end{itemize}
-Collection of air quality data in
 \subsection{Orchestrator}
 \label{sec:infra}
 \begin{itemize}
