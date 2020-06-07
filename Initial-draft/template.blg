@@ -1,23 +1,23 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'template.blg'
-[78] biber-darwin:322> INFO - === Fri Jun  5, 2020, 20:51:40
-[94] Biber.pm:415> INFO - Reading 'template.bcf'
-[195] Biber.pm:943> INFO - Found 12 citekeys in bib section 0
-[209] Biber.pm:4256> INFO - Processing section 0
-[209] Utils.pm:75> INFO - Globbing data source 'bib.bib'
-[210] Utils.pm:91> INFO - Globbed data source 'bib.bib' to bib.bib
-[219] Biber.pm:4455> INFO - Looking for bibtex format file 'bib.bib' for section 0
-[220] bibtex.pm:1653> INFO - LaTeX decoding ...
+[76] biber-darwin:322> INFO - === Sun Jun  7, 2020, 03:43:17
+[90] Biber.pm:415> INFO - Reading 'template.bcf'
+[191] Biber.pm:943> INFO - Found 14 citekeys in bib section 0
+[204] Biber.pm:4256> INFO - Processing section 0
+[205] Utils.pm:75> INFO - Globbing data source 'bib.bib'
+[205] Utils.pm:91> INFO - Globbed data source 'bib.bib' to bib.bib
+[214] Biber.pm:4455> INFO - Looking for bibtex format file 'bib.bib' for section 0
+[215] bibtex.pm:1653> INFO - LaTeX decoding ...
 [233] bibtex.pm:1471> INFO - Found BibTeX data source 'bib.bib'
-[283] Utils.pm:304> WARN - BibTeX subsystem: /var/folders/pl/rz_2gwn908v2qfg5hr6gm2yw0000gn/T/biber_tmp_dJKh/bib.bib_5345.utf8, line 30, warning: 1 characters of junk seen at toplevel
-[283] Utils.pm:304> WARN - I didn't find a database entry for 'European commission 2008' (section 0)
-[283] Utils.pm:304> WARN - I didn't find a database entry for 'fog-comp-survey' (section 0)
-[283] Utils.pm:304> WARN - I didn't find a database entry for 'Chiang 2015; Aazam and Huh 2014' (section 0)
-[283] Utils.pm:304> WARN - I didn't find a database entry for 'kubernetes-github-repo' (section 0)
-[298] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[298] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[298] Biber.pm:4084> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
-[298] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[309] bbl.pm:652> INFO - Writing 'template.bbl' with encoding 'UTF-8'
-[313] bbl.pm:755> INFO - Output to template.bbl
-[313] Biber.pm:128> INFO - WARNINGS: 5
+[294] Utils.pm:304> WARN - BibTeX subsystem: /var/folders/pl/rz_2gwn908v2qfg5hr6gm2yw0000gn/T/biber_tmp_LTas/bib.bib_1560.utf8, line 30, warning: 1 characters of junk seen at toplevel
+[294] Utils.pm:304> WARN - I didn't find a database entry for 'European commission 2008' (section 0)
+[294] Utils.pm:304> WARN - I didn't find a database entry for 'fog-comp-survey' (section 0)
+[294] Utils.pm:304> WARN - I didn't find a database entry for 'Chiang 2015; Aazam and Huh 2014' (section 0)
+[295] Utils.pm:304> WARN - I didn't find a database entry for 'kubernetes-github-repo' (section 0)
+[314] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[314] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[314] Biber.pm:4084> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[314] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[328] bbl.pm:652> INFO - Writing 'template.bbl' with encoding 'UTF-8'
+[333] bbl.pm:755> INFO - Output to template.bbl
+[334] Biber.pm:128> INFO - WARNINGS: 5

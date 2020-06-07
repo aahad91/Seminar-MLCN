@@ -55,6 +55,52 @@
       \verb https://kubernetes.io/
       \endverb
     \endentry
+    \entry{8903766}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=546a9af13d760b6b5b4b5c037335e2b5}{%
+           family={{Chima Ogbuachi}},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=130a225a58b11fe1bf1aad3a48084d29}{%
+           family={{Gore}},
+           familyi={G\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=87d172b6852a7faca42996ff9b7e74d9}{%
+           family={{Reale}},
+           familyi={R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7db2d53d690a2ed5d5ea7e8f2e4ba9b0}{%
+           family={{Suskovics}},
+           familyi={S\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=0b7b0413d132c12e49d1cd59c44c3a76}{%
+           family={{Kovács}},
+           familyi={K\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {2019 International Conference on Software, Telecommunications}%
+        {Computer Networks (SoftCOM)}%
+      }
+      \strng{namehash}{15bf0a4204d0d9aefe29f0085230c9af}
+      \strng{fullhash}{2a0424a5df41cec7647fcaff0a022fe1}
+      \strng{bibnamehash}{2a0424a5df41cec7647fcaff0a022fe1}
+      \strng{authorbibnamehash}{2a0424a5df41cec7647fcaff0a022fe1}
+      \strng{authornamehash}{15bf0a4204d0d9aefe29f0085230c9af}
+      \strng{authorfullhash}{2a0424a5df41cec7647fcaff0a022fe1}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{https://ieeexplore.ieee.org/document/8903766}}
+      \field{title}{Context-Aware K8S Scheduler for Real Time Distributed 5G Edge Computing Applications}
+      \field{year}{2019}
+    \endentry
     \entry{Haja2019}{inproceedings}{}
       \name{author}{5}{}{%
         {{hash=737113d8d4068d08af3288f22b40fc25}{%
@@ -182,6 +228,52 @@
       \field{note}{\url{http://physics.nist.gov/Document/sp811.pdf}}
       \field{title}{{Towards network-Aware resource provisioning in kubernetes for fog computing applications}}
       \field{year}{2019}
+    \endentry
+    \entry{Mittermeier2018}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=05d97604dec441c2f7ed2d85f52f9436}{%
+           family={Mittermeier},
+           familyi={M\bibinitperiod},
+           given={Ludwig},
+           giveni={L\bibinitperiod}}}%
+        {{hash=239a24124d2daa35a4c97f30aaad807f}{%
+           family={Katenbrink},
+           familyi={K\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=6ca77e98f2db5c83c0b36fd275e28455}{%
+           family={Seitz},
+           familyi={S\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=bdb78966b356611fec7ae9c2dc6ae20f}{%
+           family={Muller},
+           familyi={M\bibinitperiod},
+           given={Harald},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b8bdd135888f142755ba93727bce527b}{%
+           family={Bruegge},
+           familyi={B\bibinitperiod},
+           given={Bernd},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Proceedings-8th IEEE International Symposium on Cloud}%
+        {Services Computing, SC2 2018}%
+      }
+      \strng{namehash}{6dd9bb2961ed8bd1ea28d16897bf86ce}
+      \strng{fullhash}{cc3ffb146a7af9c025211e95019b639b}
+      \strng{bibnamehash}{cc3ffb146a7af9c025211e95019b639b}
+      \strng{authorbibnamehash}{cc3ffb146a7af9c025211e95019b639b}
+      \strng{authornamehash}{6dd9bb2961ed8bd1ea28d16897bf86ce}
+      \strng{authorfullhash}{cc3ffb146a7af9c025211e95019b639b}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8567371}}
+      \field{title}{{Dynamic scheduling for seamless computing}}
+      \field{year}{2018}
     \endentry
     \entry{Wobker2018}{inproceedings}{}
       \name{author}{4}{}{%
