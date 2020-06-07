@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.16)  7 JUN 2020 19:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.16)  7 JUN 2020 21:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1769,6 +1769,21 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no [ in font nullfont!
+\citation{erricssonreport}
+./content.tex:27: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.27 ...sson mobility report\cite{erricssonreport}
+                                                  , there will be a 17\% (ap...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `erricssonreport' on page  undefined on input line 27.
+
 Missing character: There is no ] in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -1860,11 +1875,11 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no [ in font nullfont!
-\citation{European commission 2008}
+\citation{euiotdef}
 ./content.tex:27: Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.27 ...d Anyone"} \cite{European commission 2008}
+l.27 ...with Anything and Anyone"} \cite{euiotdef}
                                                   . IoT devices have served ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1873,7 +1888,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `European commission 2008' on page  undefined on input line 27.
+LaTeX Warning: Citation `euiotdef' on page  undefined on input line 27.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
@@ -2177,6 +2192,23 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no t in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{Bittencourt2017}
+./content.tex:27: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.27 ...frastructure support\cite{Bittencourt2017}
+                                                  . Processing BigData requi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Bittencourt2017' on page  undefined on input line 27.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no P in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -2277,11 +2309,11 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no [ in font nullfont!
-\citation{fog-comp-survey}
+\citation{10.1145/3057266}
 ./content.tex:27: Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.27 ... unlimited resources\cite{fog-comp-survey}
+l.27 ... unlimited resources\cite{10.1145/3057266}
                                                   . But there is a downside ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2290,7 +2322,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `fog-comp-survey' on page  undefined on input line 27.
+LaTeX Warning: Citation `10.1145/3057266' on page  undefined on input line 27.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
@@ -2425,6 +2457,23 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{10.1145/3057266}
+./content.tex:27: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.27 ...orage, and bandwidth\cite{10.1145/3057266}
+                                                  . Computation needs to be ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `10.1145/3057266' on page  undefined on input line 27.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -2552,8 +2601,9 @@ Missing character: There is no y in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no T in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -2638,11 +2688,11 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no [ in font nullfont!
-\citation{fog-comp-survey}
+\citation{10.1145/3057266}
 ./content.tex:27: Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.27 ...andwidth requriments\cite{fog-comp-survey}
+l.27 ...andwidth requriments\cite{10.1145/3057266}
                                                   . To overcome the downside...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2651,7 +2701,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `fog-comp-survey' on page  undefined on input line 27.
+LaTeX Warning: Citation `10.1145/3057266' on page  undefined on input line 27.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
@@ -2799,9 +2849,31 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{10.1145/3057266}
+./content.tex:27: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.27 ...tead of central core\cite{10.1145/3057266}
+                                                  . \par
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `10.1145/3057266' on page  undefined on input line 27.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 19--27
+[]
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 19--27
 []
  []
 
@@ -2956,6 +3028,21 @@ Overfull \hbox (5.43053pt too wide) in paragraph at lines 19--27
  []
 
 
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 19--27
+[]
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 19--27
+[]
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 19--27
+[] 
+ []
+
+
 ./content.tex:28: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -2990,12 +3077,25 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no [ in font nullfont!
-\citation{Chiang 2015; Aazam and Huh 2014}
+\citation{10.1145/3057266}
 ./content.tex:28: Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.28 ...‚Äù}\cite{Chiang 2015; Aazam and Huh 2014}
+l.28 ...Äù} as mentioned in \cite{10.1145/3057266}
                                                   . Traditionally, user appl...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3004,7 +3104,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Chiang 2015; Aazam and Huh 2014' on page  undefined on input line 28.
+LaTeX Warning: Citation `10.1145/3057266' on page  undefined on input line 28.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
@@ -3883,8 +3983,13 @@ Overfull \hbox (21.21098pt too wide) in paragraph at lines 28--28
  []
 
 
-Overfull \hbox (32.86533pt too wide) in paragraph at lines 28--28
-\OT1/cmr/m/it/10 core)"[]
+Overfull \hbox (26.73868pt too wide) in paragraph at lines 28--28
+\OT1/cmr/m/it/10 core)"
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 28--28
+[]
  []
 
 
@@ -3985,6 +4090,23 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{Santos2019}
+./content.tex:29: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.29 ...oT devices for processing\cite{Santos2019}
+                                                  . Traditionally these reso...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Santos2019' on page  undefined on input line 29.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -4491,6 +4613,23 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{k8s}
+./content.tex:29: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.29 ...h check and resource consumption\cite{k8s}
+                                                  . The most commonly used o...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `k8s' on page  undefined on input line 29.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -4551,6 +4690,16 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 29--29
+[]
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 29--29
+[]
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 29--29
 []
  []
 
@@ -4717,6 +4866,23 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no s in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{k8s}
+./content.tex:30: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.30 ...yment, and scaling of containers\cite{k8s}
+                                                  . In Kubernetes, applicati...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `k8s' on page  undefined on input line 30.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no I in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -4756,9 +4922,6 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no d in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -4912,6 +5075,23 @@ Missing character: There is no w in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no d in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{k8s}
+./content.tex:30: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.30 ... resources and deploys afterward\cite{k8s}
+                                                  . Kubernetes default resou...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `k8s' on page  undefined on input line 30.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no K in font nullfont!
 Missing character: There is no u in font nullfont!
@@ -5132,6 +5312,23 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{Santos2019}
+./content.tex:30: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.30 ... data-centric application\cite{Santos2019}
+                                                  . An example of a data-cen...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Santos2019' on page  undefined on input line 30.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no A in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -5493,6 +5690,23 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{Santos2019}
+./content.tex:30: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.30 ...h computational resources\cite{Santos2019}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Santos2019' on page  undefined on input line 30.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 ./content.tex:31: Undefined control sequence.
 l.31 \section
@@ -5663,6 +5877,31 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 30--36
+[]
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 30--36
+[]
+ []
+
+
+Overfull \hbox (14.311pt too wide) in paragraph at lines 30--36
+\OT1/cmr/m/it/10 pod
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 30--36
+[]
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 30--36
+[]
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 30--36
 []
  []
 
@@ -5915,17 +6154,9 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no K in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
+Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -6019,11 +6250,11 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no [ in font nullfont!
-\citation{kubernetes-github-repo}
+\citation{k8s-git}
 ./content.tex:43: Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.43 ...d application\cite{kubernetes-github-repo}
+l.43 ... container-based application\cite{k8s-git}
                                                   . Figure \ref{fig:k8s-comp...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6032,7 +6263,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `kubernetes-github-repo' on page  undefined on input line 43.
+LaTeX Warning: Citation `k8s-git' on page  undefined on input line 43.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
@@ -6045,7 +6276,7 @@ Missing character: There is no e in font nullfont!
 ./content.tex:43: Undefined control sequence.
 <write> ...erence `fig:k8s-comp' on page \thepage 
                                                   \space undefined\on@line .
-l.43 ...es-github-repo}. Figure \ref{fig:k8s-comp}
+l.43 ...n\cite{k8s-git}. Figure \ref{fig:k8s-comp}
                                                    shows the main components...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6292,6 +6523,23 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no s in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{Santos2019}
+./content.tex:43: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.43 ...s} using \emph{API} calls\cite{Santos2019}
+                                                  . \emph{API server} uses R...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Santos2019' on page  undefined on input line 43.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -6470,6 +6718,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no w in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -6615,6 +6864,23 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{Santos2019}
+./content.tex:43: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.43 ...r synchronization of data\cite{Santos2019}
+                                                  . \emph{Control Manager} i...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Santos2019' on page  undefined on input line 43.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -6703,6 +6969,23 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{Santos2019}
+./content.tex:43: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.43 ...t using \emph{API server}\cite{Santos2019}
+                                                  . \emph{Kube Scheduler} is...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Santos2019' on page  undefined on input line 43.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -6812,6 +7095,23 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{Santos2019}
+./content.tex:43: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.43 ...\emph{API server} request\cite{Santos2019}
+                                                  . For any state change com...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Santos2019' on page  undefined on input line 43.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no F in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -6914,6 +7214,23 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no s in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{Santos2019}
+./content.tex:43: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.43 ...ting of Docker containers\cite{Santos2019}
+                                                  . \emph{Image Registry} is...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Santos2019' on page  undefined on input line 43.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -7248,6 +7565,23 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no w in font nullfont!
 Missing character: There is no o in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{Santos2019}
+./content.tex:43: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.43 ...n between two \emph{Pods}\cite{Santos2019}
+                                                  . Containers running in a ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Santos2019' on page  undefined on input line 43.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -7722,6 +8056,11 @@ Overfull \hbox (18.07211pt too wide) in paragraph at lines 39--47
  []
 
 
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 39--47
+[]
+ []
+
+
 Overfull \hbox (18.07211pt too wide) in paragraph at lines 39--47
 \OT1/cmr/m/it/10 API
  []
@@ -7772,6 +8111,11 @@ Overfull \hbox (19.3054pt too wide) in paragraph at lines 39--47
  []
 
 
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 39--47
+[]
+ []
+
+
 Overfull \hbox (21.46652pt too wide) in paragraph at lines 39--47
 \OT1/cmr/m/it/10 Con-
  []
@@ -7822,8 +8166,8 @@ Overfull \hbox (18.07211pt too wide) in paragraph at lines 39--47
  []
 
 
-Overfull \hbox (26.322pt too wide) in paragraph at lines 39--47
-\OT1/cmr/m/it/10 server
+Overfull \hbox (32.8289pt too wide) in paragraph at lines 39--47
+\OT1/cmr/m/it/10 server[]
  []
 
 
@@ -7872,6 +8216,11 @@ Overfull \hbox (26.322pt too wide) in paragraph at lines 39--47
  []
 
 
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 39--47
+[]
+ []
+
+
 Overfull \hbox (18.07211pt too wide) in paragraph at lines 39--47
 \OT1/cmr/m/it/10 API
  []
@@ -7884,6 +8233,11 @@ Overfull \hbox (26.322pt too wide) in paragraph at lines 39--47
 
 Overfull \hbox (32.22197pt too wide) in paragraph at lines 39--47
 \OT1/cmr/m/it/10 Kubelet
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 39--47
+[]
  []
 
 
@@ -7932,8 +8286,8 @@ Overfull \hbox (16.49434pt too wide) in paragraph at lines 39--47
  []
 
 
-Overfull \hbox (20.5832pt too wide) in paragraph at lines 39--47
-\OT1/cmr/m/it/10 Pods
+Overfull \hbox (26.83455pt too wide) in paragraph at lines 39--47
+\OT1/cmr/m/it/10 Pods[]
  []
 
 
@@ -8672,6 +9026,23 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no y in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{k8s}
+./content.tex:56: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.56 ...} based on resource availability\cite{k8s}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `k8s' on page  undefined on input line 56.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (58.05666pt too wide) in paragraph at lines 56--57
@@ -8721,6 +9092,11 @@ Overfull \hbox (29.38867pt too wide) in paragraph at lines 56--57
 
 Overfull \hbox (19.9332pt too wide) in paragraph at lines 56--57
 \OT1/cmr/m/it/10 node
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 56--57
+[] 
  []
 
 ./content.tex:58: Undefined control sequence.
@@ -8966,10 +9342,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
+Missing character: There is no , in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -9009,6 +9382,23 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{Santos2019}
+./content.tex:66: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.66 ...all the other \emph{pods}\cite{Santos2019}
+                                                  . \emph{Kube-Scheduler} wh...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Santos2019' on page  undefined on input line 66.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no w in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -9390,6 +9780,23 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no s in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{Santos2019}
+./content.tex:69: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.69 ... by applying some filters\cite{Santos2019}
+                                                  . These filters are also c...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Santos2019' on page  undefined on input line 69.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -9494,8 +9901,8 @@ Overfull \hbox (16.49434pt too wide) in paragraph at lines 58--70
  []
 
 
-Overfull \hbox (18.39987pt too wide) in paragraph at lines 58--70
-\OT1/cmr/m/it/10 pods
+Overfull \hbox (24.65121pt too wide) in paragraph at lines 58--70
+\OT1/cmr/m/it/10 pods[]
  []
 
 
@@ -9701,6 +10108,11 @@ Overfull \hbox (24.02206pt too wide) in paragraph at lines 58--70
 
 Overfull \hbox (14.311pt too wide) in paragraph at lines 58--70
 \OT1/cmr/m/it/10 pod
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 58--70
+[]
  []
 
 
@@ -10647,7 +11059,13 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
-Missing character: There is no . in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -10688,6 +11106,23 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no f in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{k8s}
+./content.tex:78: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.78 ...} are set for \emph{worker node}\cite{k8s}
+                                                  . Both \emph{Tolerations} ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `k8s' on page  undefined on input line 78.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no B in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -10883,8 +11318,8 @@ Overfull \hbox (29.38867pt too wide) in paragraph at lines 78--79
  []
 
 
-Overfull \hbox (19.9332pt too wide) in paragraph at lines 78--79
-\OT1/cmr/m/it/10 node
+Overfull \hbox (26.11511pt too wide) in paragraph at lines 78--79
+\OT1/cmr/m/it/10 node[]
  []
 
 
@@ -11264,6 +11699,23 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{Santos2019}
+./content.tex:83: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.83 ...for \emph{pod} deployment\cite{Santos2019}
+                                                  . These priorities are set...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Santos2019' on page  undefined on input line 83.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -11549,6 +12001,11 @@ Overfull \hbox (24.02206pt too wide) in paragraph at lines 80--84
 
 Overfull \hbox (14.311pt too wide) in paragraph at lines 80--84
 \OT1/cmr/m/it/10 pod
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 80--84
+[]
  []
 
 
@@ -12942,6 +13399,23 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no s in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{Santos2019}
+./content.tex:104: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.104 ... many use-case scenarios\cite{Santos2019}
+                                                  . Considering one applicat...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Santos2019' on page  undefined on input line 104.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -13036,8 +13510,7 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no E in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no u in font nullfont!
@@ -13315,6 +13788,23 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no t in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{Santos2019}
+./content.tex:104: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.104 ...lt \emph{Kube-Scheduler}\cite{Santos2019}
+                                                  . \par
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Santos2019' on page  undefined on input line 104.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (5.43053pt too wide) in paragraph at lines 98--104
@@ -13329,6 +13819,11 @@ Overfull \hbox (25.32202pt too wide) in paragraph at lines 98--104
 
 Overfull \hbox (41.27193pt too wide) in paragraph at lines 98--104
 \OT1/cmr/m/it/10 Scheduler
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 98--104
+[]
  []
 
 
@@ -13367,8 +13862,8 @@ Overfull \hbox (25.32202pt too wide) in paragraph at lines 98--104
  []
 
 
-Overfull \hbox (41.27193pt too wide) in paragraph at lines 98--104
-\OT1/cmr/m/it/10 Scheduler 
+Overfull \hbox (47.77882pt too wide) in paragraph at lines 98--104
+\OT1/cmr/m/it/10 Scheduler[] 
  []
 
 Missing character: There is no K in font nullfont!
@@ -13870,6 +14365,23 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{Santos2019}
+./content.tex:111: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.111 ...ocess function is called\cite{Santos2019}
+                                                  . When the scheduling proc...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Santos2019' on page  undefined on input line 111.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no W in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -14432,6 +14944,9 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no f in font nullfont!
 Missing character: There is no f in font nullfont!
@@ -14713,6 +15228,23 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{Santos2019}
+./content.tex:111: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.111 ...m the \emph{master node}\cite{Santos2019}
+                                                   as shown in figure\ref{fi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Santos2019' on page  undefined on input line 111.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -14731,7 +15263,7 @@ Missing character: There is no e in font nullfont!
 ./content.tex:111: Undefined control sequence.
 <write> ...ference `fig:k8s-rtt' on page \thepage 
                                                   \space undefined\on@line .
-l.111 ...node} as shown in figure\ref{fig:k8s-rtt}
+l.111 ...2019} as shown in figure\ref{fig:k8s-rtt}
                                                   .\par
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14791,6 +15323,11 @@ Overfull \hbox (29.38867pt too wide) in paragraph at lines 111--111
 
 Overfull \hbox (24.02206pt too wide) in paragraph at lines 111--111
 \OT1/cmr/m/it/10 nodes
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 111--111
+[]
  []
 
 
@@ -14994,8 +15531,8 @@ Overfull \hbox (12.13878pt too wide) in paragraph at lines 111--111
  []
 
 
-Overfull \hbox (19.9332pt too wide) in paragraph at lines 111--111
-\OT1/cmr/m/it/10 node
+Overfull \hbox (26.11511pt too wide) in paragraph at lines 111--111
+\OT1/cmr/m/it/10 node[]
  []
 
 
@@ -15569,6 +16106,23 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{Santos2019}
+./content.tex:126: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.126 ...ode} from the input list\cite{Santos2019}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Santos2019' on page  undefined on input line 126.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (42.32614pt too wide) in paragraph at lines 126--127
@@ -15623,6 +16177,11 @@ Overfull \hbox (29.38867pt too wide) in paragraph at lines 126--127
 
 Overfull \hbox (19.9332pt too wide) in paragraph at lines 126--127
 \OT1/cmr/m/it/10 node
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 126--127
+[] 
  []
 
 Missing character: There is no T in font nullfont!
@@ -16009,6 +16568,23 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{Santos2019}
+./content.tex:127: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.127 ...or bandwidth requirement\cite{Santos2019}
+                                                  . If no bandwidth requirem...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Santos2019' on page  undefined on input line 127.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no I in font nullfont!
 Missing character: There is no f in font nullfont!
@@ -16228,6 +16804,11 @@ Overfull \hbox (5.43053pt too wide) in paragraph at lines 127--128
 
 Overfull \hbox (14.311pt too wide) in paragraph at lines 127--128
 \OT1/cmr/m/it/10 pod
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 127--128
+[]
  []
 
 
@@ -16514,25 +17095,10 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
-Missing character: There is no [ in font nullfont!
-\citation{Santos2019}
-./content.tex:137: Undefined control sequence.
-<write> ...: Citation `\@citeb ' on page \thepage 
-                                                  \space undefined\on@line .
-l.137 ...scenario was considered \cite{Santos2019}
-                                                  . This scenario collects t...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Citation `Santos2019' on page  undefined on input line 137.
-
-Missing character: There is no ] in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no T in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -17197,7 +17763,7 @@ Missing character: There is no e in font nullfont!
 <write> ... `fig:k8s-sch-config' on page \thepage 
                                                   \space undefined\on@line .
 l.140 ...be seen in figure\ref{fig:k8s-sch-config}
-                                                  , where it can be seen tha...
+                                                  , where first \emph{Kube-s...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -17213,21 +17779,6 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
 Missing character: There is no f in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -17336,6 +17887,23 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no m in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{Santos2019}
+./content.tex:140: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.140 ...uling based on algorithm\cite{Santos2019}
+                                                   as shown in figure\ref{fi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Santos2019' on page  undefined on input line 140.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -17354,7 +17922,7 @@ Missing character: There is no e in font nullfont!
 ./content.tex:140: Undefined control sequence.
 <write> ...nce `fig:k8s-ns-algo' on page \thepage 
                                                   \space undefined\on@line .
-l.140 ...m as shown in figure\ref{fig:k8s-ns-algo}
+l.140 ...} as shown in figure\ref{fig:k8s-ns-algo}
                                                   . \par
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -17369,11 +17937,6 @@ Missing character: There is no . in font nullfont!
 
 Overfull \hbox (16.49434pt too wide) in paragraph at lines 129--140
 \OT1/cmr/m/it/10 Pod
- []
-
-
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 129--140
-[]
  []
 
 
@@ -17444,6 +18007,11 @@ Overfull \hbox (25.32202pt too wide) in paragraph at lines 129--140
 
 Overfull \hbox (39.7386pt too wide) in paragraph at lines 129--140
 \OT1/cmr/m/it/10 scheduler
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 129--140
+[]
  []
 
 
@@ -18297,7 +18865,7 @@ Missing character: There is no e in font nullfont!
 <write> ...e `fig:fog-k8s-infra' on page \thepage 
                                                   \space undefined\on@line .
 l.152 ...as shown in figure\ref{fig:fog-k8s-infra}
-                                                  . Another parameter "\emph...
+                                                  \cite{Santos2019}. Another...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -18307,6 +18875,23 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: Reference `fig:fog-k8s-infra' on page  undefined on input line 152.
 
+Missing character: There is no [ in font nullfont!
+\citation{Santos2019}
+./content.tex:152: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.152 ...e\ref{fig:fog-k8s-infra}\cite{Santos2019}
+                                                  . Another parameter "\emph...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Santos2019' on page  undefined on input line 152.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no A in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -18377,6 +18962,23 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{Santos2019}
+./content.tex:152: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.152 ...or \emph{pod} deployment\cite{Santos2019}
+                                                  . Furthermore, in \emph{po...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Santos2019' on page  undefined on input line 152.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no F in font nullfont!
 Missing character: There is no u in font nullfont!
@@ -19301,7 +19903,7 @@ Missing character: There is no e in font nullfont!
 <write> ...nce `fig:k8s-service' on page \thepage 
                                                   \space undefined\on@line .
 l.173 ...) as shown in figure\ref{fig:k8s-service}
-                                                  . It can be seen in figure...
+                                                  \cite{Santos2019}. It can ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -19311,6 +19913,23 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: Reference `fig:k8s-service' on page  undefined on input line 173.
 
+Missing character: There is no [ in font nullfont!
+\citation{Santos2019}
+./content.tex:173: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.173 ...ure\ref{fig:k8s-service}\cite{Santos2019}
+                                                  . It can be seen in figure...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Santos2019' on page  undefined on input line 173.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no I in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -20483,6 +21102,23 @@ Missing character: There is no f in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{Santos2019}
+./content.tex:173: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.173 ...{pod} configuration file\cite{Santos2019}
+                                                  . Figure\ref{fig:k8s-comap...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Santos2019' on page  undefined on input line 173.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no F in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -20493,7 +21129,7 @@ Missing character: There is no e in font nullfont!
 ./content.tex:173: Undefined control sequence.
 <write> ... `fig:k8s-comapre-sc' on page \thepage 
                                                   \space undefined\on@line .
-l.173 ...tion file. Figure\ref{fig:k8s-comapre-sc}
+l.173 ...ntos2019}. Figure\ref{fig:k8s-comapre-sc}
                                                    shows the average RTT tak...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -22117,6 +22753,23 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{Wobker2018}
+./content.tex:179: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.179 ...berry Pi labeled as edge\cite{Wobker2018}
+                                                  . Camera works on edge lay...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Wobker2018' on page  undefined on input line 179.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -22566,8 +23219,8 @@ Overfull \hbox (17.12212pt too wide) in paragraph at lines 143--179
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 143--179
-[]
+Overfull \hbox (16.29158pt too wide) in paragraph at lines 143--179
+[][]
  []
 
 
@@ -22583,6 +23236,11 @@ Overfull \hbox (38.7275pt too wide) in paragraph at lines 143--179
 
 Overfull \hbox (14.311pt too wide) in paragraph at lines 143--179
 \OT1/cmr/m/it/10 pod
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 143--179
+[]
  []
 
 
@@ -22671,8 +23329,8 @@ Overfull \hbox (62.7607pt too wide) in paragraph at lines 143--179
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 143--179
-[]
+Overfull \hbox (16.29158pt too wide) in paragraph at lines 143--179
+[][]
  []
 
 
@@ -22876,6 +23534,11 @@ Overfull \hbox (14.311pt too wide) in paragraph at lines 143--179
  []
 
 
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 143--179
+[]
+ []
+
+
 Overfull \hbox (10.86105pt too wide) in paragraph at lines 143--179
 []
  []
@@ -22938,6 +23601,11 @@ Overfull \hbox (25.32202pt too wide) in paragraph at lines 143--179
 
 Overfull \hbox (47.77882pt too wide) in paragraph at lines 143--179
 \OT1/cmr/m/it/10 Scheduler[]
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 143--179
+[]
  []
 
 
@@ -25124,7 +25792,7 @@ Missing character: There is no [ in font nullfont!
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
 l.183 ... Network-Aware Scheduler\cite{Santos2019}
-                                                  , DYSCO has additional fil...
+                                                  , DYSCO\cite{Mittermeier20...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -25141,6 +25809,23 @@ Missing character: There is no Y in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no O in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{Mittermeier2018}
+./content.tex:183: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.183 ...{Santos2019}, DYSCO\cite{Mittermeier2018}
+                                                   has additional filters su...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Mittermeier2018' on page  undefined on input line 183.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -25257,6 +25942,11 @@ Missing character: There is no . in font nullfont!
 
 Overfull \hbox (25.43053pt too wide) in paragraph at lines 183--183
 [][]
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 183--183
+[]
  []
 
 
@@ -25679,6 +26369,23 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no s in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{8903766}
+./content.tex:184: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.184 ...ists of the following steps\cite{8903766}
+                                                  : the list of pending \emp...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `8903766' on page  undefined on input line 184.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no : in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -26155,6 +26862,23 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{8903766}
+./content.tex:184: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.184 ...from the \emph{worker node}\cite{8903766}
+                                                  . The \emph{worker node} w...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `8903766' on page  undefined on input line 184.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -27576,9 +28300,9 @@ Missing character: There is no . in font nullfont!
 Here is how much of TeX's memory you used:
  63 strings out of 480608
  1069 string characters out of 5903630
- 266610 words of memory out of 5000000
+ 267610 words of memory out of 5000000
  16048 multiletter control sequences out of 15000+600000
  533351 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 18i,4n,19p,2747b,114s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 18i,4n,19p,2781b,114s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

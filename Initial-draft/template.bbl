@@ -31,6 +31,57 @@
       \verb https://containerjournal.com/features/whats-orchestrator-orchestrators-arent/
       \endverb
     \endentry
+    \entry{erricssonreport}{misc}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labeltitlesource}{title}
+      \field{title}{{Ericsson Mobility Report, June 2019}}
+      \verb{urlraw}
+      \verb https://www.ericsson.com/en/mobility-report/reports
+      \endverb
+      \verb{url}
+      \verb https://www.ericsson.com/en/mobility-report/reports
+      \endverb
+    \endentry
+    \entry{euiotdef}{misc}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labeltitlesource}{title}
+      \field{title}{{European Commission. 2008. Internet of Things in 2020 Road Map For The Future. Technical Report. Working Group RFID of the ETP EPOSS}}
+      \verb{urlraw}
+      \verb https://docbox.etsi.org/erm/Open/CERP%2020080609-10/Internet-of-Things_in_2020_EC-EPoSS_Workshop_Report_2008_v1-1.pdf
+      \endverb
+      \verb{url}
+      \verb https://docbox.etsi.org/erm/Open/CERP%2020080609-10/Internet-of-Things_in_2020_EC-EPoSS_Workshop_Report_2008_v1-1.pdf
+      \endverb
+    \endentry
+    \entry{k8s-git}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=615b62e030b9d93765481e2c5749af84}{%
+           family={Github-Kubernetes},
+           familyi={G\bibinithyphendelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Github}%
+      }
+      \strng{namehash}{615b62e030b9d93765481e2c5749af84}
+      \strng{fullhash}{615b62e030b9d93765481e2c5749af84}
+      \strng{bibnamehash}{615b62e030b9d93765481e2c5749af84}
+      \strng{authorbibnamehash}{615b62e030b9d93765481e2c5749af84}
+      \strng{authornamehash}{615b62e030b9d93765481e2c5749af84}
+      \strng{authorfullhash}{615b62e030b9d93765481e2c5749af84}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Kubernetes-Production-Grade Container Scheduling and Management}}
+      \verb{urlraw}
+      \verb https://github.com/kubernetes/kubernetes
+      \endverb
+      \verb{url}
+      \verb https://github.com/kubernetes/kubernetes
+      \endverb
+    \endentry
     \entry{openstackOrchestrator}{misc}{}
       \field{sortinit}{9}
       \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
@@ -361,11 +412,52 @@
       \field{title}{{Mobility-Aware Application Scheduling in Fog Computing}}
       \field{year}{2017}
     \endentry
+    \entry{10.1145/3057266}{article}{}
+      \name{author}{5}{}{%
+        {{hash=e5b420aba58a8d93cbbcaf2b1b0f4dab}{%
+           family={Perera},
+           familyi={P\bibinitperiod},
+           given={Charith},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f4cad3dff168dfa252b82303db7b1b4d}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Yongrui},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=456dcb07b3613de0be4b5e62b57eda89}{%
+           family={Estrella},
+           familyi={E\bibinitperiod},
+           given={Julio\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=e252778228ddcee523411c7d75a29e7e}{%
+           family={Reiff-Marganiec},
+           familyi={R\bibinithyphendelim M\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4d9fbc50e12486f11ef599cf2f3ffe11}{%
+           family={Vasilakos},
+           familyi={V\bibinitperiod},
+           given={Athanasios\bibnamedelima V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{3a7a2ea57f7c4872eb630a5e4ed238a4}
+      \strng{fullhash}{2b2e7cfbac1db0970b637c24bf7aade6}
+      \strng{bibnamehash}{2b2e7cfbac1db0970b637c24bf7aade6}
+      \strng{authorbibnamehash}{2b2e7cfbac1db0970b637c24bf7aade6}
+      \strng{authornamehash}{3a7a2ea57f7c4872eb630a5e4ed238a4}
+      \strng{authorfullhash}{2b2e7cfbac1db0970b637c24bf7aade6}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{https://doi.org/10.1145/3057266}}
+      \field{title}{Fog Computing for Sustainable Smart Cities: A Survey}
+      \field{year}{2017}
+    \endentry
   \enddatalist
-  \missing{Chiang 2015; Aazam and Huh 2014}
-  \missing{European commission 2008}
-  \missing{fog-comp-survey}
-  \missing{kubernetes-github-repo}
 \endrefsection
 \endinput
 
