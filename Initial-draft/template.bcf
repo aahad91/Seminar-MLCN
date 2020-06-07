@@ -2182,12 +2182,12 @@
     <bcf:datasource type="file" datatype="bibtex">bib.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="2">European commission 2008</bcf:citekey>
-    <bcf:citekey order="3">fog-comp-survey</bcf:citekey>
-    <bcf:citekey order="4">fog-comp-survey</bcf:citekey>
-    <bcf:citekey order="5">Chiang 2015; Aazam and Huh 2014</bcf:citekey>
-    <bcf:citekey order="6">Bittencourt2017</bcf:citekey>
-    <bcf:citekey order="7">Bittencourt2017</bcf:citekey>
+    <bcf:citekey order="1">Bittencourt2017</bcf:citekey>
+    <bcf:citekey order="2">Bittencourt2017</bcf:citekey>
+    <bcf:citekey order="4">European commission 2008</bcf:citekey>
+    <bcf:citekey order="5">fog-comp-survey</bcf:citekey>
+    <bcf:citekey order="6">fog-comp-survey</bcf:citekey>
+    <bcf:citekey order="7">Chiang 2015; Aazam and Huh 2014</bcf:citekey>
     <bcf:citekey order="8">Bittencourt2017</bcf:citekey>
     <bcf:citekey order="9">Bittencourt2017</bcf:citekey>
     <bcf:citekey order="10">Santos2019</bcf:citekey>
@@ -2273,20 +2273,24 @@
     <bcf:citekey order="90">Reale</bcf:citekey>
     <bcf:citekey order="91">Reale</bcf:citekey>
     <bcf:citekey order="92">Santos2019</bcf:citekey>
-    <bcf:citekey order="93">Bittencourt2017</bcf:citekey>
+    <bcf:citekey order="93">Haja2019</bcf:citekey>
     <bcf:citekey order="94">Haja2019</bcf:citekey>
     <bcf:citekey order="95">Haja2019</bcf:citekey>
     <bcf:citekey order="96">Haja2019</bcf:citekey>
-    <bcf:citekey order="97">Haja2019</bcf:citekey>
-    <bcf:citekey order="98">Haja2019</bcf:citekey>
-    <bcf:citekey order="99">Santos2019</bcf:citekey>
+    <bcf:citekey order="97">Santos2019</bcf:citekey>
+    <bcf:citekey order="98">Mittermeier2018</bcf:citekey>
+    <bcf:citekey order="99">Mittermeier2018</bcf:citekey>
     <bcf:citekey order="100">Mittermeier2018</bcf:citekey>
-    <bcf:citekey order="101">Mittermeier2018</bcf:citekey>
-    <bcf:citekey order="102">Mittermeier2018</bcf:citekey>
-    <bcf:citekey order="103">Santos2019</bcf:citekey>
+    <bcf:citekey order="101">Santos2019</bcf:citekey>
+    <bcf:citekey order="102">8903766</bcf:citekey>
+    <bcf:citekey order="103">8903766</bcf:citekey>
     <bcf:citekey order="104">8903766</bcf:citekey>
     <bcf:citekey order="105">8903766</bcf:citekey>
     <bcf:citekey order="106">8903766</bcf:citekey>
+    <bcf:citekey order="107">Santos2019</bcf:citekey>
+    <bcf:citekey order="108">8903766</bcf:citekey>
+    <bcf:citekey order="109">Santos2019</bcf:citekey>
+    <bcf:citekey order="110">8903766</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="ydnt">
