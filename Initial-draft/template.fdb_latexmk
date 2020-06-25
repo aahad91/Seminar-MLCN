@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber template"] 1592702517 "template.bcf" "template.bbl" "template" 1592703650
+["biber template"] 1593051503 "template.bcf" "template.bbl" "template" 1593051512
   "bib.bib" 1591552283 5513 d17902b2f2bc7810b51c24c09b852f7c ""
-  "template.bcf" 1592703650 109017 f5fc7228fdb1ebde4e5c94ddb9700626 "pdflatex"
+  "template.bcf" 1593051512 109017 f5fc7228fdb1ebde4e5c94ddb9700626 "pdflatex"
   (generated)
-  "template.blg"
   "template.bbl"
-["pdflatex"] 1592703648 "/Users/ahad/Documents/study/4th_Semester/seminar-mlcn/Seminar-MLCN/Initial-draft/template.tex" "/Users/ahad/Documents/study/4th_Semester/seminar-mlcn/Seminar-MLCN/Initial-draft/template.pdf" "template" 1592703650
-  "/Users/ahad/Documents/study/4th_Semester/seminar-mlcn/Seminar-MLCN/Initial-draft/template.aux" 1592703650 21301 e0389055665c455daba91d3cc122e633 ""
+  "template.blg"
+["pdflatex"] 1593051510 "/Users/ahad/Documents/study/4th_Semester/seminar-mlcn/Seminar-MLCN/Initial-draft/template.tex" "/Users/ahad/Documents/study/4th_Semester/seminar-mlcn/Seminar-MLCN/Initial-draft/template.pdf" "template" 1593051512
+  "/Users/ahad/Documents/study/4th_Semester/seminar-mlcn/Seminar-MLCN/Initial-draft/template.aux" 1593051512 21303 769b787bbf364e52b8f3faec411476fa ""
   "/Users/ahad/Documents/study/4th_Semester/seminar-mlcn/Seminar-MLCN/Initial-draft/template.tex" 1592693832 536 b5ba7209c55139607e0b437c5779483f ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc" 1388795362 7013 c55cc8669071ac14036c4a0c96c16202 ""
@@ -231,7 +231,7 @@
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1586288239 4811913 0be9a7e86c70a26e5e3042966bcd7097 ""
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1587063674 2432464 3ce72dedb06db925d6f195d5a0f72b09 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "content.tex" 1592703647 35206 edf8d9319e32bc5d8996de796e0c57df ""
+  "content.tex" 1593051499 35955 9f0eff4216464f73c5d24e137325e12b ""
   "figures/mlcn-fog-1.pdf" 1590242043 49681 2c0b607f62693326fba4d56ccd09907b ""
   "figures/mlcn-fog-k8s-infra.pdf" 1591205260 186335 9b0f1263ded681790cc7bae8cd1bd16b ""
   "figures/mlcn-k8s-components.pdf" 1590773779 102452 8e48fdd4feb5bceb1ab8bcee1ede2d41 ""
@@ -246,17 +246,17 @@
   "figures/mlcn-k8s-service-prov.pdf" 1591300817 143749 02110c9b8f2e8c33cbfb78bd6144c4ab ""
   "metadata.tex" 1592692822 227 674fcf5dbf825a0ed55c066df653edfd ""
   "preface.tex" 1592695855 2345 edbb2066afc8570632a54f23ad37b83e ""
-  "template.aux" 1592703650 21301 e0389055665c455daba91d3cc122e633 "pdflatex"
-  "template.bbl" 1592702518 18095 f2240c9bdf2ccce9818e9e62b3c93a53 "biber template"
-  "template.out" 1592703649 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "template.run.xml" 1592703650 2326 41174ec41385d4a4321b1d5115f76777 "pdflatex"
+  "template.aux" 1593051512 21303 769b787bbf364e52b8f3faec411476fa "pdflatex"
+  "template.bbl" 1593051504 18095 f2240c9bdf2ccce9818e9e62b3c93a53 "biber template"
+  "template.out" 1593051511 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "template.run.xml" 1593051512 2326 41174ec41385d4a4321b1d5115f76777 "pdflatex"
   "template.tex" 1592693832 536 b5ba7209c55139607e0b437c5779483f ""
   (generated)
-  "template.out"
-  "/Users/ahad/Documents/study/4th_Semester/seminar-mlcn/Seminar-MLCN/Initial-draft/template.pdf"
-  "template.run.xml"
   "template.pdf"
   "template.aux"
+  "/Users/ahad/Documents/study/4th_Semester/seminar-mlcn/Seminar-MLCN/Initial-draft/template.pdf"
+  "template.bcf"
   "template.log"
   "/Users/ahad/Documents/study/4th_Semester/seminar-mlcn/Seminar-MLCN/Initial-draft/template.log"
-  "template.bcf"
+  "template.run.xml"
+  "template.out"
