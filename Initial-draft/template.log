@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.16)  25 JUN 2020 04:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.16)  28 JUN 2020 22:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1242,6 +1242,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
+Underfull \hbox (badness 1383) in paragraph at lines 54--55
+\T1/stix/m/n/10 (+10) Kubernetes en-sures all the above-mentioned re-
+ []
+
+
 
 pdfTeX warning: pdflatex (file /Users/ahad/Documents/study/4th_Semester/seminar-mlcn/Seminar-MLCN/Initial-draft/figures/mlcn-k8s-scheduler.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 <figures/mlcn-k8s-scheduler.pdf, id=104, 594.585pt x 641.66998pt>
@@ -1413,6 +1418,16 @@ Underfull \hbox (badness 1629) in paragraph at lines 168--168
 \T1/stix/m/n/10 (+10) in Fig-ure[]10[], both \T1/stix/m/it/10 (+10) Kube-Scheduler \T1/stix/m/n/10 (+10) and Ran-dom
  []
 
+
+Underfull \hbox (badness 1270) in paragraph at lines 168--168
+\T1/stix/m/n/10 (+10) ploy lo-ca-tion fac-tor into the ac-count and leads
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 168--168
+\T1/stix/m/n/10 (+10) si-tion was Lo-ca-tion D, whereas it was not de-
+ []
+
 [8 </Users/ahad/Documents/study/4th_Semester/seminar-mlcn/Seminar-MLCN/Initial-draft/figures/mlcn-k8s-service-pods.pdf> </Users/ahad/Documents/study/4th_Semester/seminar-mlcn/Seminar-MLCN/Initial-draft/figures/mlcn-k8s-service-prov.pdf> </Users/ahad/Documents/study/4th_Semester/seminar-mlcn/Seminar-MLCN/Initial-draft/figures/mlcn-k8s-exec-time.pdf>]
 
 pdfTeX warning: pdflatex (file /Users/ahad/Documents/study/4th_Semester/seminar-mlcn/Seminar-MLCN/Initial-draft/figures/mlcn-k8s-scheduler-compare.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
@@ -1421,7 +1436,7 @@ File: figures/mlcn-k8s-scheduler-compare.pdf Graphic file (type pdf)
 <use figures/mlcn-k8s-scheduler-compare.pdf>
 Package pdftex.def Info: figures/mlcn-k8s-scheduler-compare.pdf  used on input line 176.
 (pdftex.def)             Requested size: 204.12683pt x 151.4503pt.
-
+[9 </Users/ahad/Documents/study/4th_Semester/seminar-mlcn/Seminar-MLCN/Initial-draft/figures/mlcn-k8s-scheduler-compare.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 186--186
 \T1/stix/m/n/10 (+10) There are many re-source pro-vi-sion-ing tech-
  []
@@ -1446,7 +1461,7 @@ Underfull \hbox (badness 1735) in paragraph at lines 186--186
 \T1/stix/m/n/10 (+10) "greedy heuris-tic al-go-rithm". This sched-uler[[]7[]]
  []
 
-[9 </Users/ahad/Documents/study/4th_Semester/seminar-mlcn/Seminar-MLCN/Initial-draft/figures/mlcn-k8s-scheduler-compare.pdf>]
+
 Underfull \hbox (badness 1755) in paragraph at lines 187--187
 \T1/stix/m/n/10 (+10) netes re-source pro-vi-sion-ing. DYSCO takes fol-
  []
@@ -1471,16 +1486,8 @@ Underfull \hbox (badness 2762) in paragraph at lines 187--187
 \T1/stix/m/n/10 (+10) arm, etc.), "Mem-ory" and "Net-work Con-nec-tiv-
  []
 
-
-Underfull \hbox (badness 1152) in paragraph at lines 188--189
-\T1/stix/m/it/10 (+10) worker node\T1/stix/m/n/10 (+10) [[]6[]]. The \T1/stix/m/it/10 (+10) worker node \T1/stix/m/n/10 (+10) with less re-
- []
-
-
-Underfull \vbox (badness 1137) has occurred while \output is active []
-
 )
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2426) has occurred while \output is active []
 
  [10]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 32.
@@ -1533,15 +1540,15 @@ Package logreq Info: Writing requests to 'template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33489 strings out of 480608
- 633361 string characters out of 5903630
- 1368361 words of memory out of 5000000
+ 33487 strings out of 480608
+ 633315 string characters out of 5903630
+ 1368362 words of memory out of 5000000
  48619 multiletter control sequences out of 15000+600000
- 608248 words of font info for 166 fonts, out of 8000000 for 9000
+ 608042 words of font info for 165 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,11n,93p,10184b,1665s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/stix/stix-ts1.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/stix/STIXGeneral-Bold.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/stix/STIXGeneral-BoldItalic.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/stix/STIXGeneral-Italic.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/stix/STIXGeneral-Regular.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfso1000.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on /Users/ahad/Documents/study/4th_Semester/seminar-mlcn/Seminar-MLCN/Initial-draft/template.pdf (11 pages, 1814505 bytes).
+Output written on /Users/ahad/Documents/study/4th_Semester/seminar-mlcn/Seminar-MLCN/Initial-draft/template.pdf (11 pages, 1814651 bytes).
 PDF statistics:
  508 PDF objects out of 1000 (max. 8388607)
  428 compressed objects within 5 object streams
